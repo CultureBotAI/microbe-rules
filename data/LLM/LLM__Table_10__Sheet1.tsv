@@ -1,0 +1,7 @@
+Feature Group	Features	Shared Property	Association with Media
+Glycosidase enzymes	API zym α-Mannosidase, α-Galactosidase, N-acetyl-β-glucosaminidase, β-Glucosidase, β-Galactosidase	Carbohydrate hydrolysis	Malt extract (dextrins, β-glucans), yeast extract (mannan, glycoproteins)
+Protease enzymes	API zym α-Chymotrypsin, Trypsin, Cystine arylamidase	Protein/peptide hydrolysis	Yeast extract (peptides), malt extract (peptides)
+Lipase enzyme	API zym Lipase	Lipid hydrolysis	Yeast extract (fatty acids), malt extract (lipids)
+Nitrogen metabolism	API 20E TDA Trp, API 20E URE Urease	Amino acid/nitrogen processing	Yeast extract (amino acids, urea derivatives)
+Secondary metabolism	production:antibiotic compound	Antibiotic biosynthesis	Glucose, malt extract (maltose), yeast extract (vitamins, cofactors)
+Environmental origin	isolation source:straw	Lignocellulosic habitat	CaCO₃ (pH buffering), complex carbon sources

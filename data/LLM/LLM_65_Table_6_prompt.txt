@@ -1,0 +1,679 @@
+﻿A. Context
+We have a set of semantic rules based on microbial features. Each rule is of the form: Condition1 & Condition2 ⇒ Growth Medium (GYM Streptomyces  medium DSMZ 65). We also have a recipe table for the medium.
+B. Task
+Provide abstract, high-level interpretations (explanations) and critiques of how these rules and features relate to the nutrients and properties of the medium, as follows:
+* Rules and rule-set-based explanation (one sentence)
+* Rules and rule-set-based critique (one sentence)
+* Feature-set-based explanation (one sentence)
+* Feature-set-based critique (one sentence)
+C. Referencing
+1. Refer to rules by their IDs (e.g., #1, #2, etc.).
+2. Refer to features exactly as stated (e.g., “ENVO:sea water,” “isolation source:marine,” etc.).
+3. Mention specific ingredients and their categories (e.g., NaCl, MgCl2, Bacto peptone) when relevant.
+D. Output Format
+Medium: <DSMZ 514 label>
+Rules and rule-set-based explanation: <your single sentence>
+Rules and rule-set-based critique: <your single sentence>
+Feature-set-based explanation: <your single sentence>
+Feature-set-based critique: <your single sentence>
+E. Summary Table
+Conclude your response with a table having exactly these columns:
+1. Rule or Rule Set or Feature Set) (must begin with “Rule #X,” “Set of Rules #X,Y,Z,”, “Feature Set”)
+2. Property of Medium or Isolation (short label describing relevant property)
+3. Very Brief Rationale (concise reason why it matters)
+
+
+Remember: Keep the four explanation/critique sections each to a single dense sentence, and keep your table entries as minimal as possible.
+
+
+F. Data
+
+
+
+
+#Rules table:
+
+
+ID        Condition 1        Condition 2        Medium        Score        Count
+1        ¬(CHEBI:Esculin)        production:antibiotic compound        65        0.9587        63
+2        ¬(CHEBI:Nitrate)        production:antibiotic compound        65        0.9462        65
+3        ¬(assay: Corynebacterium Urease        production:antibiotic compound        65        0.9437        65
+4        ¬(EC:Oxidoreductases)        assay:alpha-Mannosidase        65        0.948        28
+5        ¬(CHEBI:D-glucose)        assay:alpha-Mannosidase        65        0.9321        34
+6        ¬(CHEBI:D-glucose)        assay:Enterobacteriaceae urease        65        0.9458        25
+
+
+#Media ingredients and recipe:
+
+
+Compound        Amount        Unit        Conc. [g/L]        Conc. [mM]
+Glucose        4        g        4        22.203
+Yeast extract        4        g        4        -
+Malt extract        10        g        10        -
+CaCO3 , if required        2        g        2        19.982
+Agar        20        g        20        -
+Distilled water        1000        ml        -        -
+
+
+1 Adjust pH to 7.2 before adding agar. Delete CaCO3 if liquid medium is used.
+#Yeast Extract Ingredients
+
+
+Chemical Name/Class
+	Free/Bound
+	Universal/Variable
+	Broad/Specific
+	Role
+	Citation
+	Amino Acids
+	free
+	universal
+	broad
+	bulk
+	(Tomb et al., 2021​
+medchemexpress.eu
+)
+	Alanine
+	free
+	universal
+	specific
+	bulk
+	(PanReac AppliChem, 2019​
+itwreagents.com
+)
+	Arginine
+	free
+	universal
+	specific
+	bulk
+	(BD Bionutrients Tech., 2015​
+publications.anl.gov
+)
+	Asparagine
+	free
+	universal
+	specific
+	bulk
+	(BD Bionutrients Tech., 2015​
+publications.anl.gov
+)
+	Aspartic acid
+	free
+	universal
+	specific
+	bulk
+	(BD Bionutrients Tech., 2015​
+publications.anl.gov
+)
+	Cystine (Cysteine)
+	free
+	universal
+	specific
+	bulk
+	(BD Bionutrients Tech., 2015​
+publications.anl.gov
+)
+	Glutamic acid
+	free
+	universal
+	specific
+	bulk
+	(BD Bionutrients Tech., 2015​
+publications.anl.gov
+)
+	Glutamine
+	free
+	universal
+	specific
+	bulk
+	(BD Bionutrients Tech., 2015​
+publications.anl.gov
+)
+	Glycine
+	free
+	universal
+	specific
+	bulk
+	(BD Bionutrients Tech., 2015​
+publications.anl.gov
+)
+	Histidine
+	free
+	universal
+	specific
+	bulk
+	(BD Bionutrients Tech., 2015​
+publications.anl.gov
+)
+	Isoleucine
+	free
+	universal
+	specific
+	bulk
+	(BD Bionutrients Tech., 2015​
+publications.anl.gov
+)
+	Leucine
+	free
+	universal
+	specific
+	bulk
+	(BD Bionutrients Tech., 2015​
+publications.anl.gov
+)
+	Lysine
+	free
+	universal
+	specific
+	bulk
+	(BD Bionutrients Tech., 2015​
+publications.anl.gov
+)
+	Methionine
+	free
+	universal
+	specific
+	bulk
+	(BD Bionutrients Tech., 2015​
+publications.anl.gov
+)
+	Phenylalanine
+	free
+	universal
+	specific
+	bulk
+	(PanReac AppliChem, 2019​
+itwreagents.com
+)
+	Proline
+	free
+	universal
+	specific
+	bulk
+	(PanReac AppliChem, 2019​
+itwreagents.com
+)
+	Serine
+	free
+	universal
+	specific
+	bulk
+	(PanReac AppliChem, 2019​
+itwreagents.com
+)
+	Threonine
+	free
+	universal
+	specific
+	bulk
+	(PanReac AppliChem, 2019​
+itwreagents.com
+)
+	Tryptophan
+	free
+	universal
+	specific
+	bulk
+	(PanReac AppliChem, 2019​
+itwreagents.com
+)
+	Tyrosine
+	free
+	universal
+	specific
+	bulk
+	(PanReac AppliChem, 2019​
+itwreagents.com
+)
+	Valine
+	free
+	universal
+	specific
+	bulk
+	(PanReac AppliChem, 2019​
+itwreagents.com
+)
+	Peptides
+	bound
+	universal
+	broad
+	bulk
+	(Formedium, 2021​
+formedium.com
+)
+	Glutathione (γ-L-Glu-L-Cys-Gly)
+	bound
+	universal
+	specific
+	trace
+	(Zhang et al., 2020​
+academic.oup.com
+)
+	Nucleotides (5′-monophosphates)
+	free
+	universal
+	broad
+	bulk
+	(Chen et al., 2021​
+pmc.ncbi.nlm.nih.gov
+)
+	5′-AMP (Adenosine monophosphate)
+	free
+	universal
+	specific
+	bulk
+	(Patent US2018​
+patents.google.com
+)
+	5′-CMP (Cytidine monophosphate)
+	free
+	universal
+	specific
+	bulk
+	(Patent US2018​
+patents.google.com
+)
+	5′-GMP (Guanosine monophosphate)
+	free
+	universal
+	specific
+	bulk
+	(Chen et al., 2021​
+pmc.ncbi.nlm.nih.gov
+)
+	5′-UMP (Uridine monophosphate)
+	free
+	universal
+	specific
+	bulk
+	(Patent US2018​
+patents.google.com
+)
+	5′-IMP (Inosine monophosphate)
+	free
+	universal
+	specific
+	bulk
+	(Chen et al., 2021​
+pmc.ncbi.nlm.nih.gov
+)
+	Nucleosides & Bases
+	free
+	variable
+	broad
+	trace
+	(Formedium, 2021​
+formedium.com
+)
+	Adenosine
+	free
+	variable
+	specific
+	trace
+	(Formedium, 2021​
+formedium.com
+)
+	Inosine
+	free
+	variable
+	specific
+	trace
+	(Formedium, 2021​
+formedium.com
+)
+	Guanosine
+	free
+	variable
+	specific
+	trace
+	(Formedium, 2021​
+formedium.com
+)
+	Hypoxanthine (purine base)
+	free
+	variable
+	specific
+	trace
+	(Novocib, 2020​
+novocib.com
+)
+	Uracil (pyrimidine base)
+	free
+	variable
+	specific
+	trace
+	(Formedium, 2021​
+formedium.com
+)
+	Carbohydrates
+	bound
+	variable
+	broad
+	bulk
+	(Ingledue, 2009​
+publications.anl.gov
+)
+	Glycogen
+	bound
+	variable
+	specific
+	bulk
+	(Ingledue, 2009​
+publications.anl.gov
+)
+	Trehalose
+	free
+	universal
+	specific
+	bulk
+	(Ingledue, 2009​
+publications.anl.gov
+)
+	Mannan (mannan oligosaccharides)
+	bound
+	variable
+	specific
+	bulk
+	(Ingledue, 2009​
+publications.anl.gov
+)
+	β-Glucans (yeast cell-wall glucans)
+	bound
+	variable
+	specific
+	bulk
+	(Ingledue, 2009​
+publications.anl.gov
+)
+	Lipids
+	bound
+	variable
+	broad
+	trace
+	(INRA Feedtables, 2016​
+feedtables.com
+)
+	Fatty acids (palmitic, oleic, etc.)
+	bound
+	variable
+	specific
+	trace
+	(INRA Feedtables, 2016​
+feedtables.com
+)
+	Vitamins & Cofactors
+	free
+	universal
+	broad
+	trace
+	(YeastExtract Info, 2014​
+yeastextract.info
+)
+	Thiamine (Vitamin B1)
+	free
+	universal
+	specific
+	trace
+	(PanReac AppliChem, 2019​
+itwreagents.com
+)
+	Riboflavin (Vitamin B2)
+	free
+	universal
+	specific
+	trace
+	(PanReac AppliChem, 2019​
+itwreagents.com
+)
+	Niacin (Vitamin B3)
+	free
+	universal
+	specific
+	trace
+	(PanReac AppliChem, 2019​
+itwreagents.com
+)
+	Pantothenic acid (Vitamin B5)
+	free
+	universal
+	specific
+	trace
+	(PanReac AppliChem, 2019​
+itwreagents.com
+)
+	Pyridoxine (Vitamin B6)
+	free
+	universal
+	specific
+	trace
+	(PanReac AppliChem, 2019​
+itwreagents.com
+)
+	Biotin (Vitamin B7)
+	free
+	universal
+	specific
+	trace
+	(YeastExtract Info, 2014​
+yeastextract.info
+)
+	Folate (Vitamin B9, folic acid)
+	free
+	universal
+	specific
+	trace
+	(YeastExtract Info, 2014​
+yeastextract.info
+)
+	Para-Aminobenzoic Acid (PABA)
+	free
+	universal
+	specific
+	trace
+	(NDHealthfacts, 2014​ndhealthfacts.org)
+	Myo-Inositol (Vitamin B8)
+	free
+	universal
+	specific
+	trace
+	(NDHealthfacts, 2014​ndhealthfacts.org)
+	Polyamines
+	free
+	universal
+	broad
+	trace
+	(Patent CN102579408A​
+patents.google.com
+)
+	Putrescine
+	free
+	universal
+	specific
+	trace
+	(Patent CN102579408A​
+patents.google.com
+)
+	Spermidine
+	free
+	universal
+	specific
+	trace
+	(Patent CN102579408A​
+patents.google.com
+)
+	Spermine
+	free
+	universal
+	specific
+	trace
+	(Patent CN102579408A​
+patents.google.com
+)
+	Organic Acids
+	free
+	universal
+	broad
+	trace
+	(Fuji Foods Co., 2019​
+fujifoods-global.com
+)
+	Succinic acid
+	free
+	universal
+	specific
+	trace
+	(Fuji Foods Co., 2019​
+fujifoods-global.com
+)
+	Trace Minerals
+	bound
+	universal
+	broad
+	trace
+	(YeastExtract Info, 2014​
+yeastextract.info
+)
+	Potassium (K)
+	bound
+	universal
+	specific
+	trace
+	(YeastExtract Info, 2014​
+yeastextract.info
+)
+	Sodium (Na)
+	bound
+	variable
+	specific
+	trace
+	(YeastExtract Info, 2014​
+yeastextract.info
+)
+	Magnesium (Mg)
+	bound
+	universal
+	specific
+	trace
+	(YeastExtract Info, 2014​
+yeastextract.info
+)
+	Calcium (Ca)
+	bound
+	universal
+	specific
+	trace
+	(YeastExtract Info, 2014​
+yeastextract.info
+)
+	Phosphorus (P)
+	bound
+	universal
+	specific
+	trace
+	(INRA Feedtables, 2016​
+feedtables.com
+)
+	Iron (Fe)
+	bound
+	universal
+	specific
+	trace
+	(Feedipedia, 2018​
+feedipedia.org
+)
+	Zinc (Zn)
+	bound
+	universal
+	specific
+	trace
+	(Feedipedia, 2018​
+feedipedia.org
+)
+	Copper (Cu)
+	bound
+	universal
+	specific
+	trace
+	(Feedipedia, 2018​
+feedipedia.org
+)
+	Manganese (Mn)
+	bound
+	universal
+	specific
+	trace
+	(Feedipedia, 2018​
+feedipedia.org
+)
+	Selenium (Se)
+	bound
+	variable
+	specific
+	trace
+	(NDHealthfacts, 2014​ndhealthfacts.org)
+	Chromium (Cr)
+	bound
+	variable
+	specific
+	trace
+	(NDHealthfacts, 2014​ndhealthfacts.org)
+	Cobalt (Co)
+	bound
+	variable
+	specific
+	trace
+	(INRA Feedtables, 2016​
+feedtables.com
+)
+	Iodine (I)
+	bound
+	variable
+	specific
+	trace
+	(INRA Feedtables, 2016​
+feedtables.com
+)
+	Molybdenum (Mo)
+	bound
+	variable
+	specific
+	trace
+	(INRA Feedtables, 2016​
+feedtables.com
+)
+	
+
+
+
+
+#Malt Extract Ingredients
+Chemical Name/Class        Free/Bound        Universal/Variable        Broad/Specific        Role
+Carbohydrates (sugars & polysaccharides)        Mixed        Universal        Broad        Bulk
+    Glucose (monosaccharide)        Free        Universal        Broad        Bulk
+    Fructose (monosaccharide)        Free        Variable        Broad        Bulk
+    Sucrose (disaccharide)        Free        Variable        Broad        Bulk
+    Maltose (disaccharide)        Free        Universal        Broad        Bulk
+    Maltotriose & maltotetraose (oligosaccharides)        Free        Universal        Broad        Bulk
+    Dextrins (higher polysaccharides)        Bound        Universal        Broad        Bulk
+    Beta-glucans (barley β-glucans)        Bound        Universal        Specific        Bulk
+Proteins & Peptides (nitrogenous compounds)        Bound        Universal        Broad        Bulk
+    Peptides (hydrolyzed proteins)        Bound        Universal        Broad        Bulk
+    Free amino acids        Free        Universal        Broad        Trace
+Vitamins (B-complex)        Free        Universal        Broad        Trace
+    Niacin (Vitamin B3)        Free        Universal        Broad        Trace
+    Other B vitamins (B1, B2, B6, folate)        Free        Variable        Broad        Trace
+Lipids (fatty acids)        Free        Universal        Specific        Trace
+    Palmitic acid (C16:0)        Free        Universal        Specific        Trace
+    Oleic acid (C18:1)        Free        Universal        Specific        Trace
+    Linoleic acid (C18:2)        Free        Universal        Specific        Trace
+Minerals & Trace Elements        Free        Universal        Broad        Trace
+    Potassium (K)        Free        Universal        Broad        Trace
+    Magnesium (Mg)        Free        Universal        Broad        Trace
+    Calcium (Ca)        Free        Universal        Broad        Trace
+    Phosphorus (P)        Free        Universal        Broad        Trace
+    Iron (Fe)        Free        Universal        Broad        Trace
+    Zinc (Zn)        Free        Universal        Broad        Trace
+    Manganese (Mn)        Free        Universal        Broad        Trace
+Phenolic Compounds (antioxidants)        Free        Universal        Specific        Trace
+    Ferulic acid (phenolic acid)        Free        Variable        Specific        Trace
+    Catechins (flavan-3-ols)        Free        Variable        Specific        Trace

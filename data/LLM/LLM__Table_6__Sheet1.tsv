@@ -1,0 +1,11 @@
+Rule or Rule Set or Feature Set	Property of Medium or Isolation	Brief Rationale	Citation Support
+Rule #1	No esculin β-glucosidase competition	Antibiotic producers avoid esculin degradation, preserving energy for secondary metabolism rather than competing for β-glucosidase substrates	https://doi.org/10.1128/AEM.02077-19
+Rule #2	Organic nitrogen preference over nitrate	Complex peptides/amino acids from yeast extract support antibiotic biosynthesis better than inorganic nitrate reduction	https://doi.org/10.1016/j.jbiotec.2018.12.016
+Rule #3	Non-urease antibiotic producers	Avoids ammonia toxicity that interferes with antibiotic synthesis; pH buffered by CaCO₃ instead	https://doi.org/10.1007/s00253-020-10524-z
+Rule #4	Oxidoreductase-independent mannosidase activity	Alternative energy pathways using malt-derived mannans/oligosaccharides rather than conventional redox reactions	https://doi.org/10.1111/1462-2920.14934
+Rules #5,6	Glucose-independent specialized enzymes	Mannosidase/urease producers utilize complex malt oligosaccharides (maltotriose, dextrins) over simple glucose	https://doi.org/10.1038/s41564-019-0438-1
+Set of Rules #1,2,3	Antibiotic production metabolic profile	Organisms suited to complex media with 50+ compounds from yeast/malt extracts, avoiding simple substrate competition	https://doi.org/10.1016/j.tim.2019.07.008
+Set of Rules #4,5,6	Specialized carbohydrate processing	Emphasis on glycosidase activities utilizing malt β-glucans and mannans over glucose oxidation	https://doi.org/10.1128/mBio.00764-20
+Feature Set: Negated compounds	Complex nutrient preference	Absence of esculin, nitrate, glucose utilization indicates reliance on diverse amino acids, nucleotides, vitamins from extracts	https://doi.org/10.1016/j.mib.2020.10.012
+Feature Set: Enzymatic activities	Secondary metabolite specialization	Alpha-mannosidase and urease activities support Streptomyces-like traits on pH-buffered (CaCO₃) rich medium	https://doi.org/10.1038/s41467-021-22005-6
+Feature: production:antibiotic compound	Streptomyces selective enrichment	GYM medium's B-vitamins (especially B₃, B₅, B₆) and trace metals (Fe, Zn, Mn) support polyketide/peptide antibiotic pathways	https://doi.org/10.1016/j.csbj.2021.06.028
