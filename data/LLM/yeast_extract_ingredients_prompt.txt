@@ -1,0 +1,97 @@
+﻿What to Include
+
+
+Goal:
+Identify and comprehensively list well-documented chemical ingredients found in yeast extracts specifically used for bacterial culturing (no fungal applications). The list should be as exhaustive as possible based on available literature and reliable biochemical analyses.
+
+
+Scope:
+Include only compounds explicitly reported in peer-reviewed publications or reliable biochemical analyses as present in yeast extracts for bacterial media.
+Prioritize peer-reviewed literature from the last 10 years; use older peer-reviewed sources if no newer references exist or if additional sources are needed to reach at least 100 rows.
+If no peer-reviewed source is found, well-documented data from recognized biochemical suppliers (e.g., Sigma-Aldrich, Difco) may be used as supplementary evidence (not primary).
+Scope Exclusions:
+
+
+No fungal applications or reporting on fungi.
+Do not include inferred compounds based on general yeast biochemistry; only those explicitly reported in sources.
+Do not include ambiguous compounds (i.e., reported but not well-characterized).
+Do not consider contaminants.
+Do not include structures or structural descriptions.
+Do not specify ingredient sources or brand-specific data.
+Hierarchy & Table Structure:
+
+
+Organize the table in a nested hierarchical structure.
+Begin with broad superclasses (e.g., Amino Acids, Trace Minerals).
+List subclasses or individual chemicals (e.g., Alanine, Cysteine, Iron) beneath each heading.
+No unnecessary intermediary categories unless they enhance clarity.
+Ensure the final list is exhaustive, with at least 100 documented rows if possible.
+Trace Elements/Cofactors:
+
+
+Use broad categories (e.g., “Trace Minerals”).
+List individual key entities (e.g., “Iron,” “Zinc”) under their categories.
+Literature Priority:
+
+
+Peer-reviewed publications (last 10 years preferred)
+Older authoritative sources (if no recent sources exist or to reach 100 rows)
+Biochemical supplier data (only if no peer-reviewed evidence is available, and only for well-documented compounds)
+Exclusions on Data:
+
+
+No concentrations (do not provide percentages or ranges).
+No additional commentary beyond the required columns.
+Classification Preferences:
+
+
+Bound vs. Free: Rely on explicit statements from the sources. If a compound’s form (free or bound) is not clearly reported, omit the free/bound designation.
+Universal vs. Variable: Mark a compound as “universal” only if virtually all documented sources confirm its presence; otherwise mark it “variable.”
+Group related compounds flexibly (e.g., dipeptides can be grouped with peptides).
+Assume peptides and nucleotides are bound unless explicit reports state they are free.
+Carbohydrates and Lipids:
+
+
+Include major documented carbohydrates and lipids (important for carbon/nitrogen sources).
+Ignore trace carbohydrates and lipids.
+Chemical Classes to Cover (include but not limited to):
+
+
+Amino acids
+Peptides
+Nucleic acids and nucleotides
+Carbohydrates
+Fatty acids (or broader lipids)
+Vitamins and cofactors
+Trace minerals/metals
+Table Requirements:
+
+
+Output Format: Markdown TSV (tab-separated values) table.
+Columns (Five Total):
+Chemical Name/Class
+Free/Bound
+Universal/Variable
+Broad/Specific
+Role (possible values: “bulk” or “trace”)
+Nested Organization:
+
+
+Begin with broad categories (e.g., “Amino Acids”).
+Then list subclasses or individual chemicals (e.g., “Alanine,” “Cysteine”) beneath each heading.
+Example Row Format (for reference only):
+
+
+Chemical Name/Class    Free/Bound    Universal/Variable    Broad/Specific    Role
+Amino Acids           free          universal             broad             bulk
+Alanine               free          universal             broad             bulk
+Cysteine              free          universal             broad             bulk
+Trace Minerals        bound         universal             broad             trace
+Iron (Fe)             bound         universal             broad             trace
+Zinc (Zn)             bound         variable              broad             trace
+Final Requirements:
+
+
+Ensure the table is exhaustive, with at least 100 rows if possible.
+Adhere strictly to peer-reviewed and reliable biochemical sources.
+No commentary, no extra metadata—just the required five columns.

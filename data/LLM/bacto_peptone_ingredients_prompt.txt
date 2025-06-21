@@ -1,0 +1,92 @@
+﻿What to Include
+
+
+Goal:
+Identify and list well-documented chemical ingredients found in general bacto peptone (i.e., open to broader biochemical compositions) specifically used for bacterial culturing (not for malt or fungi).
+
+
+Scope:
+Include only compounds explicitly reported in peer-reviewed publications or reliable biochemical analyses as present in bacto peptones.
+Prioritize peer-reviewed literature from the last 10 years; use older peer-reviewed sources only if no newer references exist.
+If no peer-reviewed source is found, well-documented data from recognized biochemical suppliers (e.g., Sigma-Aldrich, Difco) may be used as supplementary evidence (not primary).
+
+
+Scope Exclusions:
+Do not include inferred compounds based on malt biochemistry.
+Do not include ambiguous compounds (i.e., reported but not well-characterized).
+Do not consider contaminants.
+Do not include structures or structural descriptions.
+Do not specify ingredient sources or brand-specific data.
+
+
+Hierarchy:
+Organize the table in a nested way (superclasses, then subclasses/instances) for readability.
+No additional intermediary categories unless they help clarify grouping.
+
+
+Trace Elements/Cofactors:
+Use broad categories (e.g., “Trace Minerals”) but list important individual entities (e.g., “Iron,” “Zinc”) as separate rows beneath the category.
+
+
+Literature Priority:
+Use peer-reviewed publications first (published within the last 10 years if available).
+Supplement with other reliable sources or biochemical analyses if needed, but only for documented compounds (no inferences).
+
+
+No Quantities:
+Do not provide percentages or concentration data.
+
+
+No Additional Notes:
+Provide only the five required columns; do not include extra commentary.
+
+
+Classification Preferences:
+Group related compounds flexibly rather than strictly separating each subcategory (e.g., dipeptides can be grouped with peptides).
+
+
+Bound vs. Free: Assume peptides and nucleotides are bound unless explicit reports state they are free.
+
+
+Carbohydrates and Lipids:
+Include major documented carbohydrates and lipids (for carbon/nitrogen and other nutrient sources needed in bulk). Ignore trace carbohydrates and lipids.
+
+
+Chemical Classes to Cover (Examples):
+Amino acids
+Peptides
+Nucleic acids and nucleotides
+Carbohydrates
+Fatty acids (or broader lipids)
+Vitamins and cofactors
+Trace minerals/metals
+Table Requirements
+
+
+Output: A single, structured Markdown TSV table.
+
+
+Columns (five total):
+Chemical Name/Class
+Free/Bound
+Universal/Variable (based on occurrence in bacto peptones)
+Broad/Specific
+Role (possible values: “bulk” or “trace”)
+
+
+Nested Organization:
+Begin with broad categories (e.g., “Amino Acids”).
+List subclasses or individual chemicals (e.g., “Alanine,” “Cysteine”) beneath each heading.
+
+
+Example Row:
+Chemical Name/Class        Free/Bound        Universal/Variable        Broad/Specific        Role
+Amino Acids        free        universal        broad        bulk
+Alanine        free        universal        broad        bulk
+Cysteine        free        universal        broad        bulk
+Trace Minerals        bound        universal        broad        trace
+Iron (Fe)        bound        universal        broad        trace
+Zinc (Zn)        bound        variable        broad        trace
+
+
+Use these instructions to create a clear, detailed table of well-documented bacto peptone ingredients — for bacterial culturing only — without adding extra notes or context beyond the required five columns.
