@@ -18,3 +18,5 @@ mediumid = 514
 #select model here; valid values are 0,1,2 for medium 65 and 1,2,3 for medium 514
 model = 2
 ```
+
+Note that package was tested with Python 3.12 as CatBoost does not run with Python 3.13

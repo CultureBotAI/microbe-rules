@@ -172,7 +172,7 @@ y_train = [d[x] for x in y_train]
 
 
 train_data = Pool(data=X_train, label=y_train, cat_features=[0])
-val_data = Pool(data=X_train, label=y_train, cat_features=[0])
+val_data = Pool(data=X_val, label=y_val, cat_features=[0])
 test_data = Pool(data=X_test, label=y_test, cat_features=[0])
 
 
