@@ -1,0 +1,9 @@
+feature or feature group	feature or list of features in group	shared property	association with media
+Marine water & reef/algal setting	ENVO:00002149 (ENVO:sea water); isolation_source:surface-water; isolation_source:coral-reef; ENVO:02500019 (alga); isolation_source:red-algae; isolation_source:green-algae; isolation_source:dinoflagellate	marine seawater exposure	Seawater-like ions NaCl, MgCl₂, CaCl₂, KCl, Na₂SO₄, KBr, SrCl₂, H₃BO₃, Na-silicate, NaF, NaHCO₃; general organics Bacto peptone, Yeast extract; Vitamins, Fe(III) citrate
+Salinity tolerance	salinity:slightly_halophilic; salinity:moderately_halophilic	preference for elevated salinity	Marine ionic strength from NaCl (~19.45 g/L) + MgCl₂, CaCl₂; supports slight > moderate halophiles
+Animal-host marine invertebrates	isolation_source:tunicata; isolation_source:echinodermata; isolation_source:cnidaria-corals; isolation_source:mollusca	association with marine metazoan hosts	Heterotrophic growth on Bacto peptone, Yeast extract; membrane/enzymatic cofactor support via MgCl₂, CaCl₂; Vitamins
+Algal associates (subset emphasis)	ENVO:02500019 (alga); isolation_source:red-algae; isolation_source:green-algae; isolation_source:dinoflagellate	algae-associated bacteria	Auxotrophy coverage via Vitamins; growth on Bacto peptone, Yeast extract; seawater ions (NaCl, MgCl₂, etc.)
+Marine environment substance	CHEBI:2509 (CHEBI:agar)	consumes or interacts with marine biological substance	Agar solidifies; may bias toward agarolytic taxa (trace galactans)
+Antibiotic context (not in medium)	CHEBI:1689 (oleandomycin)	resistance/susceptibility metadata	None—antibiotics absent; oleandomycin not a component of DSMZ 514
+
+
