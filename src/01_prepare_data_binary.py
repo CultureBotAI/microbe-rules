@@ -5,13 +5,63 @@ from pathlib import Path
 
 import pandas as pd
 import os
-
+import requests
+import tarfile
 
 src_path = "src"
 data_path = "data"
 
 data_link = "https://zenodo.org/records/15106978"
 
+data_download_link = data_link + "/files/merged-kg.tar.gz?download=1"
+
+
+
+def download_file_requests(url, folder_path, filename):
+    """
+    Downloads a file from a URL and saves it to a specified folder.
+    """
+    # Ensure the folder exists
+    os.makedirs(folder_path, exist_ok=True)
+    
+    # Construct the full local file path
+    local_filename = os.path.join(folder_path, filename)
+    
+    try:
+        # Send a GET request to the URL
+        with requests.get(url, stream=True) as r:
+            # Raise an HTTPError for bad responses (4xx or 5xx)
+            r.raise_for_status() 
+            
+            # Write the content to the local file
+            with open(local_filename, 'wb') as f:
+                for chunk in r.iter_content(chunk_size=8192):
+                    f.write(chunk)
+        
+        print(f"Downloaded '{filename}' to '{folder_path}'")
+        
+    except requests.exceptions.RequestException as e:
+        print(f"An error occurred during download: {e}")
+        exit(1)
+
+def unpack_targz(file_path, destination_folder):
+    """
+    Unpacks a .tar.gz file to a specified destination folder.
+    """
+    
+    # Ensure the destination folder exists
+    os.makedirs(destination_folder, exist_ok=True)
+    
+    try:
+        with tarfile.open(file_path, "r:gz") as tar:           
+            tar.extractall(path=destination_folder, filter='data')
+            
+        print(f"Successfully unpacked '{file_path}' to '{destination_folder}'")
+        
+    except FileNotFoundError:
+        print(f"Error: The file '{file_path}' was not found.")
+    except tarfile.TarError as e:
+        print(f"Error during unpacking: {e}")
 
 def run_data_prep(mediumid):
     print(f"Preparing data for medium {mediumid}")
@@ -22,13 +72,21 @@ def run_data_prep(mediumid):
         os.makedirs(data_path)
 
     if not os.path.exists(src_path):
-        print("Folder with source data does not exists. Please create the folder "+src_path+" and download data from the link into the folder and unpack the file to that folder. Link: "+data_link)
-        exit(1)
+        print("Folder with source data does not exists. Will create it.")
+        os.makedirs(src_path)
+        #print("Folder with source data does not exists. Please create the folder "+src_path+" and download data from the link into the folder and unpack the file to that folder. Link: "+data_link)
+        #exit(1)
 
     if not Path(os.path.join(src_path,"merged-kg_edges.tsv")).is_file():
-       print("File with KG Microbe data does not exists. Please create the folder " + src_path + " and download data from the link into the folder and unpack the file to that folder. Link: " + data_link)
-       exit(1)
-
+       print("File with KG Microbe data does not exists.")
+       archive_name = "merged-kg.tar.gz"
+       local_archive_filename = os.path.join(src_path,archive_name)
+       if not Path(local_archive_filename).is_file():
+           print("Archive file package does not exists. Will download it.")
+           download_file_requests(data_download_link,src_path,archive_name)
+       print("Now, will npack the archive") 
+       unpack_targz(local_archive_filename,src_path)
+                            
     modellabel = "binary_permute_" + str(mediumid)
 
     data = pd.read_csv(os.path.join(src_path,"merged-kg_edges.tsv"), header=0, sep="\t", encoding = "ISO-8859-1")

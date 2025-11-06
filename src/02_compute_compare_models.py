@@ -1,5 +1,6 @@
 from cleverminer.clmec import clmec, clmeq_rq
 import os
+import argparse
 
 import pandas as pd
 from sklearn import metrics
@@ -9,12 +10,38 @@ from catboost import CatBoostClassifier, Pool, cv, EFstrType
 from sklearn.model_selection import train_test_split
 
 
-#select medium here
-mediumid = 514
-#select model here; valid values are 0,1,2 for medium 65 and 1,2,3 for medium 514
-model = 2
 data_path = "data"
 
+#####################################################################################
+# PARSE ARGUMENTS
+#####################################################################################
+
+
+def parse_arguments():
+    """
+    Parse command-line arguments.
+    """
+    parser = argparse.ArgumentParser(description='Run model training with a specified medium ID.')
+    parser.add_argument('mediumid', type=int, help='The medium ID for model training.')
+
+    # CV is inferred by cv_folds>0
+    parser.add_argument('--model_id', type=int, default=0,
+                        help='Id of the model to compute (0,1,2 for medium 65 and 1,2,3 for medium 514).')
+
+    return parser.parse_args()
+
+
+args = parse_arguments()
+
+mediumid = args.mediumid
+model = args.model_id
+
+
+print("******************************************************************************")
+print(f"*** Parameters:")
+print(f"*** Medium ID  : {mediumid}")
+print(f"*** Model ID   : {model}")
+print("******************************************************************************")
 
 #####################################################################################
 # LOAD DATA                                                                         #
@@ -25,7 +52,6 @@ file_path = 'taxa_to_media__' + str(modellabel) + '_data_df_clean.tsv.gz'
 file_path = os.path.join(data_path, file_path)
 data_df_clean = pd.read_csv(file_path, sep='\t')
 print(f"Dataset has {len(data_df_clean.index)} rows and {len(data_df_clean.columns)} columns")
-#exit(458)
 
 # Splitting the data into features and target labels
 X = data_df_clean.drop('medium', axis=1)
@@ -172,7 +198,7 @@ y_train = [d[x] for x in y_train]
 
 
 train_data = Pool(data=X_train, label=y_train, cat_features=[0])
-val_data = Pool(data=X_val, label=y_val, cat_features=[0])
+val_data = Pool(data=X_train, label=y_train, cat_features=[0])
 test_data = Pool(data=X_test, label=y_test, cat_features=[0])
 
 
@@ -301,6 +327,98 @@ cnt_cbsmall_ok=0
 cnt_cbmatch=0
 cnt_cbmatchok=0
 
+
+
+def init_confusion_matrix():
+    confusion_matrix_counts = {
+        'TP': 0,
+        'TN': 0,
+        'FP': 0,
+        'FN': 0
+    }
+    return confusion_matrix_counts
+
+def update_confusion_matrix(counts_dict, predicted, reality, positive_class=1):
+    """
+    Updates the confusion matrix counts based on a single prediction.
+
+    Args:
+        counts_dict (dict): The dictionary containing TP, TN, FP, FN counts.
+        predicted (int/str): The predicted class label.
+        reality (int/str): The true class label.
+        positive_class: The label considered the 'positive' case (default is 1).
+    """
+    
+    # Check if the prediction is correct (match) or incorrect (mismatch)
+    is_correct = (predicted == reality)
+    
+    # Check if the reality is the positive class
+    is_actual_positive = (reality == positive_class)
+    
+    if is_correct:
+        if is_actual_positive:
+            # Reality is Positive, Prediction is Positive (Match)
+            counts_dict['TP'] += 1
+        else:
+            # Reality is Negative, Prediction is Negative (Match)
+            counts_dict['TN'] += 1
+    else: # Mismatch (Error)
+        if is_actual_positive:
+            # Reality is Positive, Prediction is Negative (Missed it)
+            counts_dict['FN'] += 1
+        else:
+            # Reality is Negative, Prediction is Positive (False Alarm)
+            counts_dict['FP'] += 1
+
+def calculate_metrics(counts_dict):
+    """
+    Calculates F1-score, Precision, Recall, and Accuracy 
+    from a confusion matrix counts dictionary.
+    """
+    
+    TP = counts_dict['TP']
+    TN = counts_dict['TN']
+    FP = counts_dict['FP']
+    FN = counts_dict['FN']
+    
+    # Total observations
+    Total = TP + TN + FP + FN
+    
+    # --- Precision (Focus on Predicted Positives) ---
+    # TP / (TP + FP) -> How many predicted positives were correct?
+    precision_denom = TP + FP
+    precision = TP / precision_denom if precision_denom > 0 else 0.0
+    
+    # --- Recall (Focus on Actual Positives) ---
+    # TP / (TP + FN) -> How many actual positives did we catch?
+    recall_denom = TP + FN
+    recall = TP / recall_denom if recall_denom > 0 else 0.0
+    
+    # --- F1-Score (Harmonic Mean of Precision and Recall) ---
+    # 2 * (P * R) / (P + R)
+    f1_denom = precision + recall
+    f1_score = 2 * (precision * recall) / f1_denom if f1_denom > 0 else 0.0
+    
+    # --- Accuracy (Overall Correctness) ---
+    # (TP + TN) / Total
+    accuracy = (TP + TN) / Total if Total > 0 else 0.0
+    
+    
+    return {
+        'Accuracy': accuracy,
+        'Precision': precision,
+        'Recall': recall,
+        'F1-Score': f1_score
+    }
+
+
+cm_clmpc = init_confusion_matrix()
+cm_cb = init_confusion_matrix()
+cm_cb1 = init_confusion_matrix()
+cm_cbsmall = init_confusion_matrix()
+
+
+
 for i in range(len(y_test)):
     if is_fallback[i]==0:
         cnt_tot+=1
@@ -316,10 +434,19 @@ for i in range(len(y_test)):
             cnt_cbmatch+=1
             if y_pred_cb[i]==y_test[i]:
                 cnt_cbmatchok+=1
+        update_confusion_matrix(cm_clmpc,y_test[i],y_pred_clmpc[i])
+        update_confusion_matrix(cm_cb,y_test[i],y_pred_cb[i])
+        update_confusion_matrix(cm_cb1,y_test[i],y_pred_cb1[i])
+        update_confusion_matrix(cm_cbsmall,y_test[i],y_pred_cbsmall[i])
 
 
 print(f"Out of non-fallback {cnt_tot}, scored ok CLMPC {cnt_clmpc_ok} ({cnt_clmpc_ok/cnt_tot*100:.3f}%), CB {cnt_cb_ok} ({cnt_cb_ok/cnt_tot*100:.3f}%), CB_SMALL {cnt_cbsmall_ok}({cnt_cbsmall_ok/cnt_tot*100:.3f}%), CB1 {cnt_cb1_ok}({cnt_cb1_ok/cnt_tot*100:.3f}%)")
 print(f" CLMPC and CB  matches in {cnt_cbmatch} cases ({cnt_cbmatchok} correctly scored cases)")
 
+
+print(f" Confusion matrix CLMPC for last step: {cm_clmpc}, {calculate_metrics(cm_clmpc)}")
+print(f" Confusion matrix CB for last step: {cm_cb}, {calculate_metrics(cm_cb)}")
+print(f" Confusion matrix CB1 for last step: {cm_cb1}, {calculate_metrics(cm_cb1)}")
+print(f" Confusion matrix CB_SMALL for last step: {cm_cbsmall}, {calculate_metrics(cm_cbsmall)}")
 
 

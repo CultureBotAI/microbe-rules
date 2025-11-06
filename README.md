@@ -8,15 +8,32 @@ Folder structure is the following:
 - *outputs* - contains output from a reference run
 - *outputs_llm* - contains outputs from LLM on which results were interpreted
 
-To rerun, please follow the files in folder *src*. Start with a file *01_prepare_data_binary.py* that will ask you to download a data into subfolder *src/* and based on this data, it will do the data preparation.
+To rerun, please follow the files in folder *src*. 
+```bash
+# Prepare data
+python 01_prepare_data_binary.py 
 
-Then, run *02_compute_compare_models.py* to rerun models. Note that you might select which modeland for which medium to rerun, see first lines.
+# Run binary models
+python 02_compute_compare_models.py 514 --model_id 1 >02_514_model1.txt
+python 02_compute_compare_models.py 514 --model_id 2 >02_514_model2.txt
+python 02_compute_compare_models.py 514 --model_id 3 >02_514_model3.txt
+python 02_compute_compare_models.py 65 --model_id 0 >02_65_model0.txt
+python 02_compute_compare_models.py 65 --model_id 1 >02_65_model1.txt
+python 02_compute_compare_models.py 65 --model_id 2 >02_65_model2.txt
+
+# Compute feature importance agreement
+python 03_compute_feature_importance_agreement.py 65 >03_65.txt
+python 03_compute_feature_importance_agreement.py 514 >03_514.txt
+
+# Compute ARA feature importances
+
+python 04_compute_ara.py 65 --trte_set train >04_65_train.txt
+python 04_compute_ara.py 65 --trte_set test >04_65_test.txt
+python 04_compute_ara.py 514 --trte_set train >04_514_train.txt
+python 04_compute_ara.py 514 --trte_set test >04_514_test.txt
+
 
 ```
-#select medium here
-mediumid = 514
-#select model here; valid values are 0,1,2 for medium 65 and 1,2,3 for medium 514
-model = 2
-```
+
 
 Note that package was tested with Python 3.12 as CatBoost does not run with Python 3.13

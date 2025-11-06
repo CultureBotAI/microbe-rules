@@ -1,7 +1,9 @@
 from cleverminer.clmec import clmec, clmeq_rq
 import os
+import argparse
 
 import pandas as pd
+import numpy as np
 from sklearn import metrics
 from sklearn.metrics import  confusion_matrix,accuracy_score, classification_report
 from catboost import CatBoostClassifier, Pool, cv, EFstrType
@@ -9,9 +11,33 @@ from catboost import CatBoostClassifier, Pool, cv, EFstrType
 from sklearn.model_selection import train_test_split
 from scipy.stats import pearsonr
 
-#select medium here
-mediumid = 65
 data_path = "data"
+
+#####################################################################################
+# PARSE ARGUMENTS
+#####################################################################################
+
+
+def parse_arguments():
+    """
+    Parse command-line arguments.
+    """
+    parser = argparse.ArgumentParser(description='Run model training with a specified medium ID.')
+    parser.add_argument('mediumid', type=int, help='The medium ID for model training.')
+
+    return parser.parse_args()
+
+
+args = parse_arguments()
+
+mediumid = args.mediumid
+
+
+print("******************************************************************************")
+print(f"*** Parameters:")
+print(f"*** Medium ID  : {mediumid}")
+print("******************************************************************************")
+
 
 
 #####################################################################################
@@ -151,49 +177,80 @@ print("Accuracy CBSMALL:", accuracy_score(y_test, y_pred_cbsmall))
 print("\nClassification Report:\n", classification_report(y_test, y_pred_cbsmall))
 
 
-
 print("FEATURE IMPORTANCE")
 
-feature_importance = model3.get_feature_importance()
+feature_importance = model.get_feature_importance()
 feature_names = X_test.columns
 
 # Display feature importance
 for name, importance in zip(feature_names, feature_importance):
     print(f"{name}, {importance*1000}")
 
+print(f" LENGTHS FI: {len(feature_names)}, {len(feature_importance)}")
+print(f" DIM {feature_importance.ndim}, SHAPE {feature_importance.shape}")
+
+
+
 print("FEATURE IMPORTANCE SHAP")
 
 
-feature_importance = model3.get_feature_importance(data=train_data,type=EFstrType.ShapValues)
+feature_importance = model.get_feature_importance(data=train_data,type=EFstrType.ShapValues)
 feature_names = X_train.columns
 
-# Display feature importance
-for name, importance in zip(feature_names, feature_importance):
-    class_names = model.classes_
-    print(f"{name}; {sum(importance[0]*1000)/len(importance[0])},{sum(importance[1]*1000)/len(importance[1])};{model.classes_}")
+print(f" LENGTHS: {len(feature_names)}, {len(feature_importance)}")
+print(f" DIM {feature_importance.ndim}, SHAPE {feature_importance.shape}")
+
+feature_importance = np.abs(feature_importance)
+feature_importance = np.mean(feature_importance[:,:,:-1], axis=(0, 1))
+print(f" DIM2 {feature_importance.ndim}, SHAPE {feature_importance.shape}")
 
 
 #####################################################################################
 # CALCULATE FEATURE IMPORTANCE VALIDITY                                             #
 #####################################################################################
 
-feature_importance_test = model3.get_feature_importance(data=test_data,type=EFstrType.ShapValues)
+feature_importance_test = model.get_feature_importance(data=test_data,type=EFstrType.ShapValues)
 feature_names_test = X_test.columns
+
+feature_importance_test = np.abs(feature_importance_test)
+feature_importance_test = np.mean(feature_importance_test[:,:,:-1], axis=(0, 1))
+print(f" DIM2T {feature_importance_test.ndim}, SHAPE {feature_importance_test.shape}")
+
 
 dict1 = dict(zip(feature_names, feature_importance))
 dict2 = dict(zip(feature_names_test, feature_importance_test))
+
+print(f" LENGTHS: {len(feature_names)}, {len(feature_importance)}")
+print(f" LENGTHS TEST: {len(feature_names_test)}, {len(feature_importance_test)}")
+
 
 common_keys = sorted(list(set(dict1.keys()) & set(dict2.keys())))
 
 if not common_keys:
     print("No common keys found to calculate correlation.")
 
+cnt =0
+
 data_for_df = []
 for key in common_keys:
-    data_for_df.append({'Key': key, 'Value1': sum(dict1[key][1]*1000)/len(dict1[key][1]), 'Value2': sum(dict2[key][1]*1000)/len(dict2[key][1])})
-    print({'Key': key, 'Value1': sum(dict1[key][1]*1000)/len(dict1[key][1]), 'Value2': sum(dict2[key][1]*1000)/len(dict2[key][1])})
+    data_for_df.append({'Key': key, 'Value1': dict1[key]*1000, 'Value2': dict2[key]*1000})
+    print({'Key': key, 'Value1': dict1[key]*1000, 'Value2': dict2[key]*1000})
+    if dict1[key]*1000>0.01:
+        cnt = cnt+1
 
 merged_df = pd.DataFrame(data_for_df)
+
+sorted_df = merged_df.sort_values(by='Value1',ascending = False)
+
+sorted_df.to_csv('shap65.csv')
+
+print("TOP 25+25 FEATURES ACCORDING TO SHAP")
+
+print(sorted_df.head(50))
+print("...")
+print(sorted_df.tail(50))
+
+print(f" {cnt} values >0")
 
 values1 = merged_df['Value1'].tolist()
 values2 = merged_df['Value2'].tolist()

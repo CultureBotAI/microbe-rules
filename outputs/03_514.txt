@@ -1,0 +1,3741 @@
+Cleverminer version  1.2.1
+******************************************************************************
+*** Parameters:
+*** Medium ID  : 514
+******************************************************************************
+Dataset has 25739 rows and 1783 columns
+Learning rate set to 0.275703
+0:	learn: 0.5326026	test: 0.5326026	best: 0.5326026 (0)	total: 186ms	remaining: 18.4s
+99:	learn: 0.1629578	test: 0.1629578	best: 0.1629578 (99)	total: 5.58s	remaining: 0us
+
+bestTest = 0.1629578333
+bestIteration = 99
+
+Accuracy CB: 0.9191839937230286
+
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.94      0.98      0.96      2260
+           1       0.72      0.48      0.57       289
+
+    accuracy                           0.92      2549
+   macro avg       0.83      0.73      0.76      2549
+weighted avg       0.91      0.92      0.91      2549
+
+Accuracy CB TRAIN: 0.9375034689459955
+Learning rate set to 0.5
+0:	learn: 0.4376636	test: 0.4376636	best: 0.4376636 (0)	total: 45.9ms	remaining: 0us
+
+bestTest = 0.4376636497
+bestIteration = 0
+
+Accuracy CB1: 0.8925068654374264
+
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.89      1.00      0.94      2260
+           1       0.71      0.09      0.15       289
+
+    accuracy                           0.89      2549
+   macro avg       0.80      0.54      0.55      2549
+weighted avg       0.87      0.89      0.85      2549
+
+Learning rate set to 0.5
+0:	learn: 0.4376636	test: 0.4376636	best: 0.4376636 (0)	total: 48.3ms	remaining: 193ms
+4:	learn: 0.2492564	test: 0.2492564	best: 0.2492564 (4)	total: 241ms	remaining: 0us
+
+bestTest = 0.2492563546
+bestIteration = 4
+
+Accuracy CBSMALL: 0.8983915260886622
+
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.91      0.98      0.94      2260
+           1       0.63      0.25      0.35       289
+
+    accuracy                           0.90      2549
+   macro avg       0.77      0.61      0.65      2549
+weighted avg       0.88      0.90      0.88      2549
+
+FEATURE IMPORTANCE
+CHEBI:100147, 0.0
+CHEBI:100241, 0.0
+CHEBI:100246, 0.0
+CHEBI:10057, 0.0
+CHEBI:102130, 0.0
+CHEBI:102484, 0.0
+CHEBI:115156, 0.0
+CHEBI:116278, 0.0
+CHEBI:124991, 0.0
+CHEBI:125610, 0.0
+CHEBI:12931, 1.50644615793256
+CHEBI:12936, 0.0
+CHEBI:132106, 0.0
+CHEBI:132111, 0.0
+CHEBI:132112, 0.0
+CHEBI:132943, 0.0
+CHEBI:132950, 0.0
+CHEBI:133748, 0.0
+CHEBI:13389, 0.0
+CHEBI:134606, 0.0
+CHEBI:135854, 0.0
+CHEBI:135874, 0.0
+CHEBI:13705, 0.0
+CHEBI:140148, 0.0
+CHEBI:141991, 0.0
+CHEBI:143136, 0.0
+CHEBI:14314, 0.0
+CHEBI:14321, 0.0
+CHEBI:14336, 0.0
+CHEBI:145778, 0.0
+CHEBI:15075, 0.0
+CHEBI:15138, 31.461280534217817
+CHEBI:15226, 0.0
+CHEBI:15318, 0.0
+CHEBI:15347, 0.0
+CHEBI:15353, 1.7408974347137574
+CHEBI:15354, 0.0
+CHEBI:15356, 17.370948517003175
+CHEBI:15361, 46.605172559176125
+CHEBI:15369, 0.0
+CHEBI:15379, 21.365864559256725
+CHEBI:15428, 51.68148820556747
+CHEBI:15443, 0.0
+CHEBI:15570, 0.0
+CHEBI:15588, 0.0
+CHEBI:15589, 0.0
+CHEBI:15603, 0.0
+CHEBI:15611, 0.0
+CHEBI:156421, 0.0
+CHEBI:156450, 0.0
+CHEBI:156452, 0.0
+CHEBI:156550, 0.0
+CHEBI:15676, 0.0
+CHEBI:15688, 0.0
+CHEBI:15708, 0.0
+CHEBI:157175, 0.0
+CHEBI:15724, 0.0
+CHEBI:15729, 0.0
+CHEBI:15738, 0.0
+CHEBI:15740, 0.0
+CHEBI:15746, 0.0
+CHEBI:15748, 0.0
+CHEBI:157683, 0.0
+CHEBI:15782, 0.0
+CHEBI:15792, 0.0
+CHEBI:15824, 0.0
+CHEBI:15862, 0.0
+CHEBI:15882, 0.0
+CHEBI:15887, 0.0
+CHEBI:15891, 0.0
+CHEBI:15895, 0.0
+CHEBI:15903, 0.0
+CHEBI:15956, 0.0
+CHEBI:15963, 0.0
+CHEBI:15971, 0.0
+CHEBI:15978, 0.0
+CHEBI:15987, 0.0
+CHEBI:16000, 0.0
+CHEBI:16004, 0.0
+CHEBI:16016, 0.0
+CHEBI:16024, 174.99016905930225
+CHEBI:160246, 0.0
+CHEBI:16027, 0.6273809697598911
+CHEBI:16040, 0.0
+CHEBI:16087, 0.0
+CHEBI:16094, 78.00310770674895
+CHEBI:16133, 0.0
+CHEBI:16134, 0.0
+CHEBI:16136, 0.0
+CHEBI:16148, 0.0
+CHEBI:16150, 0.0
+CHEBI:161680, 0.0
+CHEBI:16176, 0.0
+CHEBI:16183, 0.0
+CHEBI:16189, 0.0
+CHEBI:16193, 0.0
+CHEBI:16199, 0.0
+CHEBI:16227, 0.0
+CHEBI:16235, 0.0
+CHEBI:16236, 10.079336889052096
+CHEBI:16261, 0.0
+CHEBI:16283, 0.0
+CHEBI:16296, 0.0
+CHEBI:16301, 0.0
+CHEBI:16324, 0.0
+CHEBI:16335, 2.275854675608934
+CHEBI:16349, 0.0
+CHEBI:16383, 0.0
+CHEBI:16397, 0.0
+CHEBI:16398, 0.0
+CHEBI:16411, 0.0
+CHEBI:16414, 0.0
+CHEBI:16443, 0.0
+CHEBI:16449, 99.09094767797673
+CHEBI:16452, 0.0
+CHEBI:16467, 0.0
+CHEBI:16523, 0.0
+CHEBI:16526, 0.0
+CHEBI:16537, 16.75392729089373
+CHEBI:16551, 27.02822056004127
+CHEBI:16567, 0.0
+CHEBI:16632, 0.0
+CHEBI:16634, 134.69921530032772
+CHEBI:16643, 0.0
+CHEBI:16651, 0.0
+CHEBI:166872, 0.0
+CHEBI:16695, 0.0
+CHEBI:16704, 0.0
+CHEBI:16708, 0.0
+CHEBI:16716, 0.0
+CHEBI:16724, 0.0
+CHEBI:16763, 0.0
+CHEBI:16765, 0.0
+CHEBI:16808, 0.0
+CHEBI:16810, 0.0
+CHEBI:16811, 0.0
+CHEBI:16813, 0.0
+CHEBI:16828, 0.0
+CHEBI:16830, 0.0
+CHEBI:16856, 0.0
+CHEBI:16857, 0.0
+CHEBI:16865, 18.17326170571227
+CHEBI:16867, 0.0
+CHEBI:16869, 0.0
+CHEBI:16899, 0.0
+CHEBI:16919, 0.0
+CHEBI:16947, 0.0
+CHEBI:16958, 0.0
+CHEBI:16977, 0.0
+CHEBI:16988, 61.931072904762495
+CHEBI:16991, 116.46540909032338
+CHEBI:16997, 0.0
+CHEBI:17015, 0.0
+CHEBI:17019, 0.0
+CHEBI:17020, 0.0
+CHEBI:17029, 0.0
+CHEBI:17045, 0.0
+CHEBI:17057, 152.62229941749862
+CHEBI:17076, 0.0
+CHEBI:17097, 0.0
+CHEBI:17108, 0.0
+CHEBI:17113, 6.277312915373039
+CHEBI:17115, 0.0
+CHEBI:17120, 0.0
+CHEBI:17126, 0.0
+CHEBI:17128, 0.0
+CHEBI:17148, 0.0
+CHEBI:17151, 79.7205634184998
+CHEBI:17164, 0.0
+CHEBI:17170, 0.0
+CHEBI:17191, 0.0
+CHEBI:17196, 0.0
+CHEBI:17201, 0.0
+CHEBI:17203, 0.0
+CHEBI:17234, 636.8957827349241
+CHEBI:17240, 0.0
+CHEBI:17245, 0.0
+CHEBI:17256, 0.0
+CHEBI:17266, 48.186526504149235
+CHEBI:17268, 0.0
+CHEBI:17272, 64.7905475859651
+CHEBI:17295, 1.391037196154799
+CHEBI:17306, 611.7863588867713
+CHEBI:17309, 0.0
+CHEBI:17315, 0.0
+CHEBI:17317, 0.0
+CHEBI:17334, 0.0
+CHEBI:17359, 0.0
+CHEBI:17368, 0.0
+CHEBI:17376, 0.5616431524963463
+CHEBI:17426, 0.0
+CHEBI:17437, 0.0
+CHEBI:17440, 0.0
+CHEBI:17464, 8.28653534021968
+CHEBI:17521, 0.0
+CHEBI:17540, 0.0
+CHEBI:17561, 0.0
+CHEBI:17578, 0.0
+CHEBI:17596, 0.0
+CHEBI:17632, 429.45528612384595
+CHEBI:17634, 381.511539101418
+CHEBI:17665, 0.0
+CHEBI:176843, 0.0
+CHEBI:17698, 0.0
+CHEBI:17716, 0.0
+CHEBI:17747, 0.0
+CHEBI:17748, 104.68255711782327
+CHEBI:17750, 0.0
+CHEBI:17754, 370.61421728624526
+CHEBI:17774, 0.0
+CHEBI:17784, 0.0
+CHEBI:17790, 0.0
+CHEBI:17814, 0.0
+CHEBI:17822, 0.0
+CHEBI:17824, 0.0
+CHEBI:17833, 0.0
+CHEBI:17836, 0.0
+CHEBI:17859, 0.0
+CHEBI:17879, 0.0
+CHEBI:17895, 0.0
+CHEBI:17924, 0.0
+CHEBI:17925, 0.0
+CHEBI:17968, 0.0
+CHEBI:17992, 0.0
+CHEBI:17997, 0.0
+CHEBI:18019, 0.0
+CHEBI:18024, 0.0
+CHEBI:18050, 0.0
+CHEBI:18101, 0.0
+CHEBI:18123, 0.0
+CHEBI:18132, 0.0
+CHEBI:18135, 0.0
+CHEBI:18139, 0.0
+CHEBI:18183, 0.0
+CHEBI:18186, 0.0
+CHEBI:18203, 0.0
+CHEBI:18208, 0.0
+CHEBI:18212, 0.0
+CHEBI:18222, 0.0
+CHEBI:18240, 0.0
+CHEBI:18248, 0.0
+CHEBI:18257, 0.0
+CHEBI:18262, 0.0
+CHEBI:18276, 0.0
+CHEBI:18281, 0.0
+CHEBI:18287, 0.0
+CHEBI:18291, 0.0
+CHEBI:18295, 0.0
+CHEBI:18300, 0.0
+CHEBI:18305, 0.0
+CHEBI:18333, 0.0
+CHEBI:18347, 0.0
+CHEBI:18391, 0.0
+CHEBI:18394, 0.0
+CHEBI:18397, 0.0
+CHEBI:18401, 0.0
+CHEBI:18403, 35.60596429599286
+CHEBI:18420, 0.0
+CHEBI:1904, 0.0
+CHEBI:19475, 0.0
+CHEBI:204928, 0.0
+CHEBI:209807, 0.0
+CHEBI:21217, 0.0
+CHEBI:2179, 0.0
+CHEBI:22210, 0.0
+CHEBI:22507, 0.0
+CHEBI:22599, 0.0
+CHEBI:22605, 0.0
+CHEBI:22651, 0.0
+CHEBI:22653, 0.0
+CHEBI:22743, 0.0
+CHEBI:22907, 0.0
+CHEBI:23044, 0.0
+CHEBI:23066, 0.0
+CHEBI:23248, 0.0
+CHEBI:23456, 0.0
+CHEBI:23652, 102.12435731316008
+CHEBI:24148, 0.0
+CHEBI:24149, 0.0
+CHEBI:24175, 70.55280958980795
+CHEBI:24265, 139.42600139868333
+CHEBI:24266, 0.0
+CHEBI:24297, 0.0
+CHEBI:24632, 0.0
+CHEBI:24741, 0.0
+CHEBI:24750, 0.0
+CHEBI:24753, 0.0
+CHEBI:24898, 17.76724889749461
+CHEBI:24996, 78.50656433790962
+CHEBI:25000, 0.0
+CHEBI:25017, 0.0
+CHEBI:2509, 0.0
+CHEBI:25094, 0.0
+CHEBI:25097, 2.285293190092246
+CHEBI:2511, 0.0
+CHEBI:25115, 459.19049192998614
+CHEBI:25140, 0.0
+CHEBI:25646, 0.0
+CHEBI:26194, 0.0
+CHEBI:26271, 0.0
+CHEBI:2637, 0.0
+CHEBI:26490, 0.0
+CHEBI:26493, 0.0
+CHEBI:2652, 0.0
+CHEBI:26546, 0.0
+CHEBI:26580, 0.0
+CHEBI:26672, 0.0
+CHEBI:26710, 0.0
+CHEBI:2676, 0.0
+CHEBI:26789, 0.0
+CHEBI:26806, 33.127917838953586
+CHEBI:26948, 0.0
+CHEBI:26986, 0.0
+CHEBI:27082, 153.38470048619837
+CHEBI:27226, 0.0
+CHEBI:27248, 12.12416024151131
+CHEBI:27266, 0.0
+CHEBI:27338, 0.0
+CHEBI:27417, 0.0
+CHEBI:27442, 0.0
+CHEBI:27477, 0.0
+CHEBI:27518, 0.0
+CHEBI:27547, 0.0
+CHEBI:27569, 0.0
+CHEBI:27570, 0.0
+CHEBI:27605, 0.0
+CHEBI:27612, 0.0
+CHEBI:27613, 0.0
+CHEBI:27641, 0.0
+CHEBI:27644, 0.0
+CHEBI:27680, 0.0
+CHEBI:27689, 68.63834584829308
+CHEBI:27701, 0.0
+CHEBI:27856, 0.0
+CHEBI:27897, 0.0
+CHEBI:2790, 0.0
+CHEBI:27902, 0.0
+CHEBI:27922, 0.0
+CHEBI:27941, 0.0
+CHEBI:28001, 0.0
+CHEBI:28017, 43.981963014879696
+CHEBI:28034, 0.0
+CHEBI:28037, 0.0
+CHEBI:28044, 0.0
+CHEBI:28053, 0.0
+CHEBI:28066, 0.0
+CHEBI:28077, 0.0
+CHEBI:28087, 0.0
+CHEBI:28102, 1.0870580788587865
+CHEBI:28120, 0.0
+CHEBI:28196, 0.0
+CHEBI:28260, 219.9816401327382
+CHEBI:28262, 0.0
+CHEBI:28266, 0.0
+CHEBI:28300, 0.0
+CHEBI:28304, 0.0
+CHEBI:28340, 0.0
+CHEBI:28368, 0.0
+CHEBI:28644, 0.0
+CHEBI:28669, 0.0
+CHEBI:28675, 0.0
+CHEBI:28748, 0.0
+CHEBI:28757, 262.6237063481595
+CHEBI:28800, 0.0
+CHEBI:28808, 0.0
+CHEBI:28816, 0.0
+CHEBI:28831, 0.0
+CHEBI:28847, 56.21164734617162
+CHEBI:28851, 0.0
+CHEBI:28860, 0.0
+CHEBI:28864, 0.0
+CHEBI:28885, 0.0
+CHEBI:28908, 0.0
+CHEBI:28915, 0.0
+CHEBI:28938, 28.10595056705742
+CHEBI:28945, 0.0
+CHEBI:28971, 44.36106603633685
+CHEBI:29007, 0.0
+CHEBI:29016, 586.6309977178979
+CHEBI:29021, 0.0
+CHEBI:29034, 0.0
+CHEBI:29042, 0.0
+CHEBI:29125, 0.0
+CHEBI:2955, 0.0
+CHEBI:29581, 0.0
+CHEBI:29582, 0.0
+CHEBI:29649, 0.0
+CHEBI:29665, 0.0
+CHEBI:29670, 0.0
+CHEBI:29671, 0.0
+CHEBI:29673, 0.0
+CHEBI:29687, 0.0
+CHEBI:29693, 0.0
+CHEBI:29749, 0.0
+CHEBI:29805, 0.0
+CHEBI:29806, 0.0
+CHEBI:29864, 294.8543175255206
+CHEBI:29985, 0.0
+CHEBI:29987, 0.0
+CHEBI:29988, 0.0
+CHEBI:29990, 0.0
+CHEBI:29991, 0.0
+CHEBI:30031, 67.81343152597418
+CHEBI:30033, 8.019782226447909
+CHEBI:30043, 0.0
+CHEBI:30089, 120.82724963063804
+CHEBI:30295, 0.0
+CHEBI:30411, 0.0
+CHEBI:30477, 0.0
+CHEBI:30612, 0.0
+CHEBI:30623, 0.0
+CHEBI:30751, 0.0
+CHEBI:30796, 0.0
+CHEBI:30797, 0.0
+CHEBI:30803, 0.0
+CHEBI:30832, 0.0
+CHEBI:30849, 416.29368393914734
+CHEBI:30860, 0.0
+CHEBI:30911, 113.52014870697185
+CHEBI:30916, 10.209038464629574
+CHEBI:30924, 0.0
+CHEBI:30928, 0.0
+CHEBI:30929, 0.0
+CHEBI:31011, 62.56801963989894
+CHEBI:31168, 2.5696166234052016
+CHEBI:31206, 0.0
+CHEBI:3122, 0.0
+CHEBI:31605, 0.0
+CHEBI:31639, 0.0
+CHEBI:31810, 0.0
+CHEBI:31845, 0.0
+CHEBI:31908, 0.0
+CHEBI:320055, 0.0
+CHEBI:320061, 0.0
+CHEBI:32032, 0.0
+CHEBI:32161, 0.0
+CHEBI:32323, 98.66875077273215
+CHEBI:32361, 0.0
+CHEBI:32362, 0.0
+CHEBI:32373, 0.0
+CHEBI:32488, 1.4164784709304759
+CHEBI:32528, 0.0
+CHEBI:32544, 0.0
+CHEBI:32735, 0.0
+CHEBI:32892, 0.0
+CHEBI:32931, 0.0
+CHEBI:32954, 1.7613448915762973
+CHEBI:33290, 0.0
+CHEBI:33403, 68.26744142323372
+CHEBI:3362, 0.0
+CHEBI:33697, 0.0
+CHEBI:3371, 0.0
+CHEBI:33801, 0.0
+CHEBI:33830, 0.0
+CHEBI:338412, 0.0
+CHEBI:33871, 0.0
+CHEBI:3393, 32.096898467050785
+CHEBI:33942, 0.0
+CHEBI:33951, 0.0
+CHEBI:33954, 0.0
+CHEBI:33984, 16.025322311740606
+CHEBI:3435, 0.0
+CHEBI:3480, 0.0
+CHEBI:3493, 0.0
+CHEBI:34948, 0.0
+CHEBI:35020, 0.0
+CHEBI:35022, 0.0
+CHEBI:35026, 0.0
+CHEBI:3508, 0.0
+CHEBI:3515, 0.0
+CHEBI:3517, 0.0
+CHEBI:3528, 0.0
+CHEBI:3534, 0.0
+CHEBI:35358, 0.0
+CHEBI:3537, 0.0
+CHEBI:35390, 0.0
+CHEBI:35391, 0.0
+CHEBI:35418, 0.0
+CHEBI:3542, 0.0
+CHEBI:3543, 0.0
+CHEBI:355715, 0.0
+CHEBI:35581, 0.0
+CHEBI:35687, 0.0
+CHEBI:3580, 0.0
+CHEBI:35860, 0.0
+CHEBI:35899, 0.0
+CHEBI:36218, 0.0
+CHEBI:36219, 0.0
+CHEBI:36241, 0.0
+CHEBI:36257, 0.0
+CHEBI:36405, 0.0
+CHEBI:36592, 0.0
+CHEBI:36655, 0.0
+CHEBI:36986, 0.0
+CHEBI:37054, 0.0
+CHEBI:37165, 0.0
+CHEBI:37166, 0.0
+CHEBI:3732, 0.0
+CHEBI:37397, 0.0
+CHEBI:3745, 0.0
+CHEBI:37657, 0.0
+CHEBI:37684, 171.21580117259947
+CHEBI:3770, 0.0
+CHEBI:37923, 0.0
+CHEBI:37943, 0.0
+CHEBI:37966, 0.0
+CHEBI:38030, 0.0
+CHEBI:3815, 0.0
+CHEBI:38291, 0.0
+CHEBI:39150, 0.0
+CHEBI:39201, 0.0
+CHEBI:39207, 0.0
+CHEBI:40538, 0.0
+CHEBI:40585, 0.0
+CHEBI:40656, 0.0
+CHEBI:41808, 0.0
+CHEBI:41865, 0.0
+CHEBI:41977, 0.0
+CHEBI:43943, 0.0
+CHEBI:43968, 0.0
+CHEBI:44337, 3.2734444514482686
+CHEBI:44504, 0.0
+CHEBI:45296, 0.9101984491177753
+CHEBI:45367, 0.0
+CHEBI:45422, 0.0
+CHEBI:45735, 0.0
+CHEBI:45773, 0.0
+CHEBI:45924, 0.0
+CHEBI:46050, 0.0
+CHEBI:46645, 0.0
+CHEBI:46793, 0.0
+CHEBI:471744, 0.0
+CHEBI:472657, 0.0
+CHEBI:474053, 0.0
+CHEBI:4767, 0.0
+CHEBI:478164, 0.0
+CHEBI:47869, 0.0
+CHEBI:48095, 0.0
+CHEBI:48267, 0.0
+CHEBI:4853, 518.090874217139
+CHEBI:48537, 0.0
+CHEBI:48607, 0.0
+CHEBI:4877, 0.0
+CHEBI:48844, 0.0
+CHEBI:48923, 0.0
+CHEBI:48942, 0.0
+CHEBI:48944, 0.0
+CHEBI:48947, 0.0
+CHEBI:49322, 0.0
+CHEBI:495055, 0.0
+CHEBI:495056, 0.0
+CHEBI:49566, 0.0
+CHEBI:49637, 0.0
+CHEBI:50048, 0.0
+CHEBI:50144, 0.0
+CHEBI:50344, 0.0
+CHEBI:50453, 0.0
+CHEBI:5054, 0.0
+CHEBI:506227, 312.4750960957404
+CHEBI:50694, 0.0
+CHEBI:50819, 0.0
+CHEBI:50845, 0.0
+CHEBI:5181, 0.0
+CHEBI:51850, 41.08681264743542
+CHEBI:5195, 0.27241729520755
+CHEBI:52071, 0.0
+CHEBI:52722, 0.0
+CHEBI:5291, 575.5300889062182
+CHEBI:53071, 0.0
+CHEBI:53156, 0.0
+CHEBI:53181, 0.0
+CHEBI:53200, 0.0
+CHEBI:53258, 0.0
+CHEBI:53259, 0.0
+CHEBI:53388, 0.0
+CHEBI:53423, 388.9782347482461
+CHEBI:53424, 0.0
+CHEBI:53425, 0.0
+CHEBI:53426, 497.2892719117075
+CHEBI:5390, 0.0
+CHEBI:5417, 11.408073046332461
+CHEBI:546840, 0.0
+CHEBI:5533, 0.0
+CHEBI:55394, 0.0
+CHEBI:55507, 0.0
+CHEBI:57606, 0.0
+CHEBI:58044, 0.0
+CHEBI:58143, 41.94226183962007
+CHEBI:58187, 0.0
+CHEBI:59062, 0.0
+CHEBI:59066, 0.0
+CHEBI:59640, 0.0
+CHEBI:606565, 0.0
+CHEBI:6104, 0.0
+CHEBI:61490, 0.0
+CHEBI:6198, 0.0
+CHEBI:61993, 0.0
+CHEBI:61995, 0.0
+CHEBI:62064, 0.0
+CHEBI:62318, 0.0
+CHEBI:62320, 0.0
+CHEBI:62345, 47.41245638187095
+CHEBI:62501, 0.0
+CHEBI:62517, 0.0
+CHEBI:62946, 0.0
+CHEBI:62965, 0.0
+CHEBI:62968, 27.78797674333743
+CHEBI:62969, 0.0
+CHEBI:62983, 0.0
+CHEBI:63005, 0.0
+CHEBI:63038, 0.0
+CHEBI:63043, 0.0
+CHEBI:63051, 0.0
+CHEBI:63150, 0.0
+CHEBI:63153, 0.0
+CHEBI:63154, 0.0
+CHEBI:63486, 0.0
+CHEBI:63528, 0.0
+CHEBI:6359, 0.0
+CHEBI:63598, 0.0
+CHEBI:63607, 0.0
+CHEBI:63611, 0.0
+CHEBI:6364, 0.0
+CHEBI:63675, 0.0
+CHEBI:64103, 0.0
+CHEBI:64243, 0.0
+CHEBI:6426, 0.0
+CHEBI:6452, 0.0
+CHEBI:64552, 0.0
+CHEBI:6457, 0.0
+CHEBI:6472, 0.0
+CHEBI:65327, 0.0
+CHEBI:65328, 0.0
+CHEBI:66279, 0.0
+CHEBI:67135, 0.0
+CHEBI:6731, 0.0
+CHEBI:6827, 0.0
+CHEBI:68428, 3.4323911987868247
+CHEBI:68590, 0.0
+CHEBI:6872, 0.0
+CHEBI:68837, 0.0
+CHEBI:6909, 0.0
+CHEBI:6919, 0.0
+CHEBI:69414, 0.0
+CHEBI:70744, 0.0
+CHEBI:71321, 0.0
+CHEBI:71415, 0.0
+CHEBI:71422, 0.0
+CHEBI:71987, 0.0
+CHEBI:72346, 0.0
+CHEBI:72813, 0.0
+CHEBI:73167, 0.0
+CHEBI:73706, 0.0
+CHEBI:73784, 0.0
+CHEBI:73786, 0.0
+CHEBI:73804, 0.0
+CHEBI:73908, 0.0
+CHEBI:73918, 0.0
+CHEBI:74611, 0.0
+CHEBI:74846, 0.0
+CHEBI:74848, 0.0
+CHEBI:74863, 0.0
+CHEBI:7488, 0.0
+CHEBI:7507, 0.0
+CHEBI:75146, 0.0
+CHEBI:75193, 0.0
+CHEBI:75198, 0.0
+CHEBI:75211, 0.0
+CHEBI:75228, 4.41214695301631
+CHEBI:75229, 0.0
+CHEBI:75248, 0.0
+CHEBI:75250, 0.0
+CHEBI:75273, 0.0
+CHEBI:7528, 0.0
+CHEBI:75832, 0.0
+CHEBI:7614, 0.0
+CHEBI:76282, 0.0
+CHEBI:7660, 0.0
+CHEBI:7731, 0.0
+CHEBI:77735, 0.0
+CHEBI:77879, 0.0
+CHEBI:78019, 0.0
+CHEBI:78021, 0.0
+CHEBI:7809, 0.0
+CHEBI:78208, 0.0
+CHEBI:78661, 0.0
+CHEBI:78697, 0.0
+CHEBI:7896, 0.0
+CHEBI:79285, 0.0
+CHEBI:7934, 0.0
+CHEBI:79394, 0.0
+CHEBI:80025, 0.0
+CHEBI:80052, 0.0
+CHEBI:8006, 7.905685946050744
+CHEBI:80106, 0.0
+CHEBI:81283, 0.0
+CHEBI:81419, 0.0
+CHEBI:81430, 0.0
+CHEBI:8232, 0.0
+CHEBI:8295, 10.333179163543962
+CHEBI:8309, 0.0
+CHEBI:83230, 0.0
+CHEBI:83267, 0.0
+CHEBI:8337, 0.0
+CHEBI:8391, 0.0
+CHEBI:84997, 0.0
+CHEBI:85146, 0.0
+CHEBI:85248, 0.0
+CHEBI:85249, 0.0
+CHEBI:85260, 0.0
+CHEBI:85274, 0.0
+CHEBI:86455, 4.678360169285611
+CHEBI:86471, 0.0
+CHEBI:8653, 0.0
+CHEBI:87084, 0.0
+CHEBI:87209, 0.0
+CHEBI:87997, 0.0
+CHEBI:89634, 1.2901240097110735
+CHEBI:90144, 0.0
+CHEBI:90146, 0.0
+CHEBI:90148, 0.0
+CHEBI:90249, 0.0
+CHEBI:90259, 0.0
+CHEBI:90343, 0.0
+CHEBI:90350, 0.0
+CHEBI:90426, 0.0
+CHEBI:90603, 0.0
+CHEBI:90608, 0.0
+CHEBI:90741, 0.0
+CHEBI:91043, 0.0
+CHEBI:91050, 0.0
+CHEBI:91122, 0.0
+CHEBI:91260, 0.0
+CHEBI:9169, 0.0
+CHEBI:9215, 0.0
+CHEBI:9300, 0.0
+CHEBI:9321, 0.0
+CHEBI:9332, 0.0
+CHEBI:9337, 0.0
+CHEBI:9421, 0.0
+CHEBI:9506, 6.143241973696225
+CHEBI:9542, 0.0
+CHEBI:9587, 0.0
+EC:1.11.1.6, 252.8587854485513
+EC:1.12.99.6, 0.0
+EC:1.4.1.4, 0.0
+EC:1.7.99.4, 0.0
+EC:1.9.3.1, 2679.0366800282445
+EC:2.3.2.2, 0.0
+EC:2.7.7.16, 0.0
+EC:2.8.1.5, 0.0
+EC:3.1.1.3, 0.0
+EC:3.1.3.1, 235.97436388255144
+EC:3.1.3.2, 698.9938823791047
+EC:3.1.3.4, 0.0
+EC:3.1.6.1, 0.0
+EC:3.2.1.1, 0.0
+EC:3.2.1.14, 0.0
+EC:3.2.1.17, 0.0
+EC:3.2.1.20, 552.4539864927792
+EC:3.2.1.21, 309.93856768054474
+EC:3.2.1.22, 0.0
+EC:3.2.1.23, 0.0
+EC:3.2.1.24, 0.0
+EC:3.2.1.25, 0.0
+EC:3.2.1.31, 0.0
+EC:3.2.1.38, 0.0
+EC:3.2.1.4, 0.0
+EC:3.2.1.40, 0.0
+EC:3.2.1.51, 0.0
+EC:3.2.1.52, 0.0
+EC:3.2.1.55, 0.0
+EC:3.2.1.8, 1.5633712710713337
+EC:3.2.1.81, 0.0
+EC:3.2.1.85, 0.0
+EC:3.4.1.1, 0.0
+EC:3.4.11.1, 686.7751298730246
+EC:3.4.11.2, 0.0
+EC:3.4.11.21, 0.0
+EC:3.4.11.3, 0.0
+EC:3.4.11.4, 0.0
+EC:3.4.11.5, 0.0
+EC:3.4.19.3, 0.0
+EC:3.4.21.1, 0.0
+EC:3.4.21.4, 0.0
+EC:3.4.21.50, 0.0
+EC:3.4.4.5, 0.0
+EC:3.5.1.5, 666.4366964151968
+EC:3.5.1.B15, 0.0
+EC:3.5.2.6, 0.0
+EC:3.5.3.6, 344.59100680533487
+EC:3.9.1.1, 0.0
+EC:4.1.1.15, 0.0
+EC:4.1.1.17, 244.49477155316816
+EC:4.1.1.18, 0.0
+EC:4.1.1.19, 0.0
+EC:4.1.1.27, 0.0
+EC:4.1.2.22, 0.0
+EC:4.1.99.1, 0.0
+EC:4.3.1.5, 0.0
+ENVO:00000035, 0.0
+ENVO:00000051, 0.0
+ENVO:00000073, 0.0
+ENVO:00000134, 0.0
+ENVO:00000215, 40.7014754328004
+ENVO:00000247, 0.0
+ENVO:00001995, 0.0
+ENVO:00001998, 0.0
+ENVO:00002001, 0.0
+ENVO:00002006, 0.0
+ENVO:00002007, 0.0
+ENVO:00002011, 0.0
+ENVO:00002012, 13.334982282819546
+ENVO:00002019, 12.253169558891681
+ENVO:00002034, 0.0
+ENVO:00002044, 0.0
+ENVO:00002113, 8.247041776658385
+ENVO:00002123, 0.0
+ENVO:00002149, 1001.5683478004314
+ENVO:00002170, 0.0
+ENVO:00002259, 0.0
+ENVO:00002261, 0.0
+ENVO:00002984, 0.0
+ENVO:00005750, 0.0
+ENVO:00005774, 0.0
+ENVO:01000164, 0.0
+ENVO:01000230, 0.0
+ENVO:01000256, 0.0
+ENVO:01000306, 0.0
+ENVO:01000357, 0.0
+ENVO:01000628, 0.0
+ENVO:01001001, 0.0
+ENVO:01001002, 0.0
+ENVO:01001004, 0.0
+ENVO:01001029, 0.0
+ENVO:01001040, 0.0
+ENVO:01001041, 0.0
+ENVO:02500019, 15.655789126241784
+ENVO:02500038, 0.0
+ENVO:03000033, 140.39093479819994
+ENVO:08000002, 0.0
+ENVO:2100002, 0.0
+ENVO:2100003, 0.0
+NaCl_delta:high, 174.71822813341223
+NaCl_delta:low, 0.0
+NaCl_delta:mid, 126.90821738772762
+NaCl_delta:very_low, 0.0
+NaCl_opt:high, 0.0
+NaCl_opt:low, 509.47141752342
+NaCl_opt:mid, 228.17295114057094
+NaCl_opt:very_low, 0.0
+NaCl_range:high, 1389.6773827435502
+NaCl_range:low, 0.0
+NaCl_range:mid, 980.0111482593333
+NaCl_range:very_low, 32.43377102596715
+PATO:0001162, 0.0
+PATO:0001306, 0.0
+PATO:0001430, 0.0
+PATO:0001472, 0.0
+PATO:0001596, 0.0
+PATO:0002425, 0.0
+PO:0025034, 0.0
+UBERON:0000065, 0.0
+UBERON:0000178, 0.0
+UBERON:0000468, 0.0
+UBERON:0000996, 0.0
+UBERON:0001913, 0.0
+assay:API_20A_ARA, 0.0
+assay:API_20A_CAT, 0.0
+assay:API_20A_CEL, 0.0
+assay:API_20A_COCC, 0.0
+assay:API_20A_ESC, 0.0
+assay:API_20A_GEL, 0.0
+assay:API_20A_GLU, 0.0
+assay:API_20A_GLY, 0.0
+assay:API_20A_GRAM, 0.0
+assay:API_20A_IND, 0.0
+assay:API_20A_LAC, 0.0
+assay:API_20A_MAL, 0.0
+assay:API_20A_MAN, 0.0
+assay:API_20A_MLZ, 0.0
+assay:API_20A_MNE, 0.0
+assay:API_20A_RAF, 0.0
+assay:API_20A_RHA, 0.0
+assay:API_20A_SAC, 0.0
+assay:API_20A_SAL, 0.0
+assay:API_20A_SOR, 0.0
+assay:API_20A_SPOR, 0.0
+assay:API_20A_TRE, 0.0
+assay:API_20A_URE, 0.0
+assay:API_20A_XYL, 0.0
+assay:API_20E_ADH Arg, 0.0
+assay:API_20E_AMY, 0.0
+assay:API_20E_ARA, 0.0
+assay:API_20E_CIT, 47.82564403205658
+assay:API_20E_GEL, 0.0
+assay:API_20E_GLU, 0.0
+assay:API_20E_H2S, 0.0
+assay:API_20E_IND, 0.0
+assay:API_20E_INO, 0.0
+assay:API_20E_LDC Lys, 0.0
+assay:API_20E_MAC, 0.0
+assay:API_20E_MAN, 0.0
+assay:API_20E_MEL, 0.0
+assay:API_20E_MOB, 0.0
+assay:API_20E_N2, 0.0
+assay:API_20E_NO2, 0.0
+assay:API_20E_ODC, 0.0
+assay:API_20E_ONPG, 0.0
+assay:API_20E_OX, 0.0
+assay:API_20E_RHA, 0.0
+assay:API_20E_SAC, 0.0
+assay:API_20E_Sor, 0.0
+assay:API_20E_TDA Trp, 0.0
+assay:API_20E_URE, 0.0
+assay:API_20E_VP, 0.0
+assay:API_20NE_ADH Arg, 0.0
+assay:API_20NE_ADI, 0.0
+assay:API_20NE_ARA, 0.0
+assay:API_20NE_CAP, 0.0
+assay:API_20NE_CIT, 0.0
+assay:API_20NE_ESC, 65.00745208200185
+assay:API_20NE_GEL, 54.34021606623137
+assay:API_20NE_GLU_ Assim, 0.0
+assay:API_20NE_GLU_ Ferm, 615.8072611160125
+assay:API_20NE_GNT, 0.0
+assay:API_20NE_MAL, 0.0
+assay:API_20NE_MAN, 151.17374618281582
+assay:API_20NE_MLT, 0.0
+assay:API_20NE_MNE, 0.0
+assay:API_20NE_NAG, 0.0
+assay:API_20NE_NO3, 0.0
+assay:API_20NE_OX, 613.8729380579921
+assay:API_20NE_PAC, 0.0
+assay:API_20NE_PNPG, 652.7276681260555
+assay:API_20NE_TRP, 81.45635193725727
+assay:API_20NE_URE, 0.0
+assay:API_20STR_ADH, 0.0
+assay:API_20STR_AMD, 0.0
+assay:API_20STR_ARA, 0.0
+assay:API_20STR_ESC, 0.0
+assay:API_20STR_GLYG, 0.0
+assay:API_20STR_HIP, 0.0
+assay:API_20STR_INU, 0.0
+assay:API_20STR_LAC, 0.0
+assay:API_20STR_LAP, 0.0
+assay:API_20STR_MAN, 0.0
+assay:API_20STR_PAL, 0.0
+assay:API_20STR_PYRA, 0.0
+assay:API_20STR_RAF, 0.0
+assay:API_20STR_RIB, 0.0
+assay:API_20STR_SOR, 0.0
+assay:API_20STR_TRE, 0.0
+assay:API_20STR_VP, 0.0
+assay:API_20STR_alpha GAL, 0.0
+assay:API_20STR_beta GAL, 0.0
+assay:API_20STR_beta GUR, 0.0
+assay:API_20STR_beta HEM, 0.0
+assay:API_50CHac_2KG, 0.0
+assay:API_50CHac_5KG, 0.0
+assay:API_50CHac_ADO, 0.0
+assay:API_50CHac_AMD, 0.0
+assay:API_50CHac_AMY, 0.0
+assay:API_50CHac_ARB, 0.0
+assay:API_50CHac_CEL, 0.0
+assay:API_50CHac_DARA, 0.0
+assay:API_50CHac_DARL, 0.0
+assay:API_50CHac_DFUC, 0.0
+assay:API_50CHac_DUL, 0.0
+assay:API_50CHac_DXYL, 0.0
+assay:API_50CHac_ERY, 0.0
+assay:API_50CHac_ESC, 0.0
+assay:API_50CHac_FRU, 0.0
+assay:API_50CHac_GAL, 0.0
+assay:API_50CHac_GEN, 0.0
+assay:API_50CHac_GLU, 0.0
+assay:API_50CHac_GLY, 0.0
+assay:API_50CHac_GLYG, 0.0
+assay:API_50CHac_GNT, 0.0
+assay:API_50CHac_INO, 0.0
+assay:API_50CHac_INU, 0.0
+assay:API_50CHac_LAC, 0.0
+assay:API_50CHac_LARA, 0.0
+assay:API_50CHac_LARL, 0.0
+assay:API_50CHac_LFUC, 0.0
+assay:API_50CHac_LYX, 0.0
+assay:API_50CHac_MAL, 0.0
+assay:API_50CHac_MAN, 0.0
+assay:API_50CHac_MDG, 0.0
+assay:API_50CHac_MDM, 0.0
+assay:API_50CHac_MDX, 0.0
+assay:API_50CHac_MEL, 0.0
+assay:API_50CHac_MLZ, 0.0
+assay:API_50CHac_MNE, 0.0
+assay:API_50CHac_NAG, 155.78017062464124
+assay:API_50CHac_RAF, 0.0
+assay:API_50CHac_RHA, 0.0
+assay:API_50CHac_RIB, 0.0
+assay:API_50CHac_SAC, 0.0
+assay:API_50CHac_SAL, 0.0
+assay:API_50CHac_SBE, 0.0
+assay:API_50CHac_SOR, 0.0
+assay:API_50CHac_TAG, 0.0
+assay:API_50CHac_TRE, 0.0
+assay:API_50CHac_TUR, 0.0
+assay:API_50CHac_XLT, 0.0
+assay:API_50CHas_AMD, 0.0
+assay:API_50CHas_ARB, 0.0
+assay:API_50CHas_CEL, 0.0
+assay:API_50CHas_DFUC, 0.0
+assay:API_50CHas_FRU, 0.0
+assay:API_50CHas_GLU, 0.0
+assay:API_50CHas_LARA, 0.0
+assay:API_50CHas_MEL, 0.0
+assay:API_CAM_ACE, 0.0
+assay:API_CAM_ArgA, 0.0
+assay:API_CAM_AspA, 0.0
+assay:API_CAM_CAT, 0.0
+assay:API_CAM_CFZ, 0.0
+assay:API_CAM_CIT, 0.0
+assay:API_CAM_ERO, 0.0
+assay:API_CAM_EST, 0.0
+assay:API_CAM_GGT, 0.0
+assay:API_CAM_GLU, 0.0
+assay:API_CAM_H2S, 0.0
+assay:API_CAM_HIP, 0.0
+assay:API_CAM_MLT, 0.0
+assay:API_CAM_NAL, 0.0
+assay:API_CAM_NIT, 0.0
+assay:API_CAM_PAL, 0.0
+assay:API_CAM_PROP, 0.0
+assay:API_CAM_PYRA, 0.0
+assay:API_CAM_SUT, 0.0
+assay:API_CAM_TTC, 0.0
+assay:API_CAM_URE, 0.0
+assay:API_ID32E_5KG, 0.0
+assay:API_ID32E_ADH Arg, 0.0
+assay:API_ID32E_ADO, 0.0
+assay:API_ID32E_AspA, 0.0
+assay:API_ID32E_CEL, 0.0
+assay:API_ID32E_DARL, 0.0
+assay:API_ID32E_GAT, 0.0
+assay:API_ID32E_GLU, 0.0
+assay:API_ID32E_IND, 0.0
+assay:API_ID32E_INO, 0.0
+assay:API_ID32E_LARA, 0.0
+assay:API_ID32E_LARL, 0.0
+assay:API_ID32E_LDC Lys, 0.0
+assay:API_ID32E_LIP, 0.0
+assay:API_ID32E_MAL, 0.0
+assay:API_ID32E_MAN, 0.0
+assay:API_ID32E_MNT, 0.0
+assay:API_ID32E_ODC, 0.0
+assay:API_ID32E_PLE, 0.0
+assay:API_ID32E_RHA, 0.0
+assay:API_ID32E_RP, 0.0
+assay:API_ID32E_SAC, 0.0
+assay:API_ID32E_SOR, 0.0
+assay:API_ID32E_TRE, 0.0
+assay:API_ID32E_URE, 0.0
+assay:API_ID32E_alpha GAL, 0.0
+assay:API_ID32E_alpha GLU, 0.0
+assay:API_ID32E_alphaMAL, 0.0
+assay:API_ID32E_beta GAL, 0.0
+assay:API_ID32E_beta GLU, 0.0
+assay:API_ID32E_beta GUR, 0.0
+assay:API_ID32E_beta NAG, 0.0
+assay:API_ID32STA_ADH Arg, 0.0
+assay:API_ID32STA_ARA, 0.0
+assay:API_ID32STA_ArgA, 0.0
+assay:API_ID32STA_CEL, 0.0
+assay:API_ID32STA_ESC, 0.0
+assay:API_ID32STA_FRU, 0.0
+assay:API_ID32STA_GLU, 0.0
+assay:API_ID32STA_LAC, 0.0
+assay:API_ID32STA_MAL, 0.0
+assay:API_ID32STA_MAN, 0.0
+assay:API_ID32STA_MNE, 0.0
+assay:API_ID32STA_NAG, 0.0
+assay:API_ID32STA_NIT, 0.0
+assay:API_ID32STA_NOVO, 0.0
+assay:API_ID32STA_ODC, 0.0
+assay:API_ID32STA_PAL, 0.0
+assay:API_ID32STA_PyrA, 0.0
+assay:API_ID32STA_RAF, 0.0
+assay:API_ID32STA_RIB, 0.0
+assay:API_ID32STA_SAC, 0.0
+assay:API_ID32STA_TRE, 0.0
+assay:API_ID32STA_TUR, 0.0
+assay:API_ID32STA_URE, 0.0
+assay:API_ID32STA_VP, 0.0
+assay:API_ID32STA_beta GAL, 0.0
+assay:API_ID32STA_beta GUR, 0.0
+assay:API_LIST_DARL, 0.0
+assay:API_LIST_DIM, 0.0
+assay:API_LIST_ESC, 0.0
+assay:API_LIST_G1P, 0.0
+assay:API_LIST_MDG, 0.0
+assay:API_LIST_RHA, 0.0
+assay:API_LIST_RIB, 0.0
+assay:API_LIST_TAG, 0.0
+assay:API_LIST_XYL, 0.0
+assay:API_LIST_alpha MAN, 0.0
+assay:API_LIST_beta HEM, 0.0
+assay:API_NH_FRU, 0.0
+assay:API_NH_GGT, 0.0
+assay:API_NH_GLU, 0.0
+assay:API_NH_IND, 0.0
+assay:API_NH_LIP, 0.0
+assay:API_NH_MAL, 0.0
+assay:API_NH_ODC, 0.0
+assay:API_NH_PAL, 0.0
+assay:API_NH_PEN, 6.469639739668174
+assay:API_NH_ProA, 0.0
+assay:API_NH_SAC, 0.0
+assay:API_NH_URE, 5.201358191657419
+assay:API_NH_beta GAL, 0.09343354876231567
+assay:API_coryne_CAT, 0.0
+assay:API_coryne_Control, 0.0
+assay:API_coryne_ESC, 0.0
+assay:API_coryne_GEL, 0.0
+assay:API_coryne_GLU, 0.0
+assay:API_coryne_GLYG, 0.0
+assay:API_coryne_LAC, 0.0
+assay:API_coryne_MAL, 0.0
+assay:API_coryne_MAN, 0.0
+assay:API_coryne_NIT, 0.0
+assay:API_coryne_PAL, 0.0
+assay:API_coryne_PYRA, 190.27836802314124
+assay:API_coryne_PYZ, 0.0
+assay:API_coryne_RIB, 0.0
+assay:API_coryne_SAC, 0.0
+assay:API_coryne_URE, 0.0
+assay:API_coryne_XYL, 0.0
+assay:API_coryne_alpha GLU, 0.0
+assay:API_coryne_beta GAL, 0.0
+assay:API_coryne_beta GUR, 14.72221586478392
+assay:API_coryne_beta NAG, 87.83219102014463
+assay:API_rID32A_ADH Arg, 0.0
+assay:API_rID32A_AlaA, 0.0
+assay:API_rID32A_ArgA, 0.0
+assay:API_rID32A_GDC, 0.0
+assay:API_rID32A_GGA, 0.0
+assay:API_rID32A_GlyA, 0.0
+assay:API_rID32A_HisA, 0.0
+assay:API_rID32A_IND, 0.0
+assay:API_rID32A_LGA, 0.0
+assay:API_rID32A_LeuA, 0.0
+assay:API_rID32A_MNE, 0.0
+assay:API_rID32A_NIT, 0.0
+assay:API_rID32A_PAL, 0.0
+assay:API_rID32A_PheA, 0.0
+assay:API_rID32A_ProA, 0.0
+assay:API_rID32A_PyrA, 0.0
+assay:API_rID32A_RAF, 0.0
+assay:API_rID32A_SerA, 0.0
+assay:API_rID32A_TyrA, 0.0
+assay:API_rID32A_URE, 0.0
+assay:API_rID32A_alpha ARA, 0.0
+assay:API_rID32A_alpha FUC, 0.0
+assay:API_rID32A_alpha GAL, 0.0
+assay:API_rID32A_alpha GLU, 0.0
+assay:API_rID32A_beta GAL, 0.0
+assay:API_rID32A_beta GLU, 0.0
+assay:API_rID32A_beta GP, 0.0
+assay:API_rID32A_beta GUR, 0.0
+assay:API_rID32A_beta NAG, 0.0
+assay:API_rID32STR_ADH Arg, 0.0
+assay:API_rID32STR_APPA, 0.0
+assay:API_rID32STR_CDEX, 0.0
+assay:API_rID32STR_DARL, 0.0
+assay:API_rID32STR_GLYG, 0.0
+assay:API_rID32STR_GTA, 0.0
+assay:API_rID32STR_HIP, 0.0
+assay:API_rID32STR_LAC, 0.0
+assay:API_rID32STR_LARA, 0.0
+assay:API_rID32STR_MAL, 0.0
+assay:API_rID32STR_MAN, 0.0
+assay:API_rID32STR_MEL, 0.0
+assay:API_rID32STR_MLZ, 0.0
+assay:API_rID32STR_Mbeta DG, 0.0
+assay:API_rID32STR_PAL, 0.0
+assay:API_rID32STR_PUL, 0.0
+assay:API_rID32STR_PyrA, 0.0
+assay:API_rID32STR_RAF, 0.0
+assay:API_rID32STR_RIB, 11.962547525474925
+assay:API_rID32STR_SAC, 0.0
+assay:API_rID32STR_SOR, 0.0
+assay:API_rID32STR_TAG, 0.0
+assay:API_rID32STR_TRE, 0.0
+assay:API_rID32STR_URE, 0.0
+assay:API_rID32STR_VP, 0.0
+assay:API_rID32STR_alpha GAL, 0.0
+assay:API_rID32STR_beta GAL, 0.0
+assay:API_rID32STR_beta GAR, 0.0
+assay:API_rID32STR_beta GLU, 0.0
+assay:API_rID32STR_beta GUR, 0.0
+assay:API_rID32STR_beta MAN, 0.0
+assay:API_rID32STR_beta NAG, 0.0
+assay:API_zym_Acid phosphatase, 0.0
+assay:API_zym_Alkaline phosphatase, 0.0
+assay:API_zym_Control, 0.0
+assay:API_zym_Cystine arylamidase, 0.0
+assay:API_zym_Esterase, 0.0
+assay:API_zym_Esterase Lipase, 0.0
+assay:API_zym_Leucine arylamidase, 0.0
+assay:API_zym_Lipase, 0.0
+assay:API_zym_N-acetyl-beta- glucosaminidase, 0.0
+assay:API_zym_Naphthol-AS-BI-phosphohydrolase, 0.0
+assay:API_zym_Trypsin, 0.0
+assay:API_zym_Valine arylamidase, 0.0
+assay:API_zym_alpha- Chymotrypsin, 128.43209600480904
+assay:API_zym_alpha- Fucosidase, 0.0
+assay:API_zym_alpha- Galactosidase, 0.0
+assay:API_zym_alpha- Glucosidase, 0.0
+assay:API_zym_alpha- Mannosidase, 0.0
+assay:API_zym_beta- Galactosidase, 0.0
+assay:API_zym_beta- Glucosidase, 0.0
+assay:API_zym_beta- Glucuronidase, 0.0
+cell_length:high, 0.0
+cell_length:low, 0.0
+cell_length:mid, 0.0
+cell_length:very_low, 0.0
+cell_shape:bacillus, 0.0
+cell_shape:branced, 0.0
+cell_shape:coccobacillus, 0.0
+cell_shape:coccus, 53.805299676093924
+cell_shape:curved, 0.0
+cell_shape:disc , 0.0
+cell_shape:dumbbell, 0.0
+cell_shape:ellipsoidal, 0.0
+cell_shape:filament, 0.0
+cell_shape:fusiform, 0.0
+cell_shape:helical, 0.0
+cell_shape:irregular, 0.0
+cell_shape:oval, 0.0
+cell_shape:ovoid, 74.94353621112002
+cell_shape:pleomorphic, 0.0
+cell_shape:ring, 6.921771716086365
+cell_shape:rod, 568.3352717798398
+cell_shape:sphere, 0.0
+cell_shape:spiral, 0.0
+cell_shape:spore, 0.0
+cell_shape:square, 0.0
+cell_shape:star, 0.0
+cell_shape:star_dumbbell_pleomorphic, 0.0
+cell_shape:vibrio, 0.0
+cell_width:high, 0.0
+cell_width:low, 0.0
+cell_width:mid, 0.0
+cell_width:very_low, 0.0
+gc:high, 112.83960981959963
+gc:low, 79.08769026359813
+gc:mid1, 169.61833676367505
+gc:mid2, 53.73225469380404
+gram_stain:negative, 912.8869982672855
+gram_stain:positive, 122.14940329997266
+gram_stain:variable, 21.53144116378899
+isolation_source:abdomen, 0.0
+isolation_source:abort, 0.0
+isolation_source:abscess, 0.0
+isolation_source:acidic, 0.0
+isolation_source:activated-sludge, 0.0
+isolation_source:agriculture, 0.0
+isolation_source:air, 0.0
+isolation_source:air-conditioner, 0.0
+isolation_source:airways, 0.0
+isolation_source:algae, 634.3566165968755
+isolation_source:alkaline, 0.0
+isolation_source:alpine, 0.0
+isolation_source:amniotic-fluid, 0.0
+isolation_source:amphibia, 0.0
+isolation_source:anaerobic-digestor, 0.0
+isolation_source:animal-feed, 0.0
+isolation_source:animal-habitation-nest,burrow, 0.0
+isolation_source:animal-produced-food-natural, 0.0
+isolation_source:ankle, 0.0
+isolation_source:annelida, 0.0
+isolation_source:anoxic-anaerobic, 0.0
+isolation_source:antibiotic-treatment, 0.0
+isolation_source:aquaculture, 0.0
+isolation_source:aquatic, 79.55805352792382
+isolation_source:aquatic-mammal, 8.37937295193666
+isolation_source:aquatic-plant, 569.5566433574446
+isolation_source:arid, 131.0034474636287
+isolation_source:arm, 0.0
+isolation_source:arthropoda, 0.0
+isolation_source:aspirate, 0.0
+isolation_source:bacteria, 0.0
+isolation_source:bark, 0.0
+isolation_source:beverage, 0.0
+isolation_source:biodegradation, 0.0
+isolation_source:biofilm, 234.55586471305037
+isolation_source:biofilter, 0.0
+isolation_source:biopsy, 0.0
+isolation_source:bioreactor, 0.0
+isolation_source:bioremediation, 0.0
+isolation_source:birds, 0.0
+isolation_source:bladder, 0.0
+isolation_source:bladder-stone, 0.0
+isolation_source:blood, 0.0
+isolation_source:blood-culture, 0.0
+isolation_source:bone, 10.471835488570457
+isolation_source:boreal, 0.0
+isolation_source:bottled,-canned,-packed-food, 0.0
+isolation_source:bovinae-cow,-cattle, 0.0
+isolation_source:brackish, 109.7368016137767
+isolation_source:brain, 0.0
+isolation_source:bronchial-wash, 0.0
+isolation_source:brown-algae, 230.06302931303384
+isolation_source:built-environment, 276.2823603851162
+isolation_source:caecal-content, 0.0
+isolation_source:canidae-dog, 0.0
+isolation_source:caprinae-sheep/goat, 0.0
+isolation_source:catheter, 0.0
+isolation_source:cave-water, 0.0
+isolation_source:cerebrospinal-fluid, 0.0
+isolation_source:chicken, 0.0
+isolation_source:child, 0.0
+isolation_source:clean-room, 0.0
+isolation_source:clinic, 0.0
+isolation_source:cnidaria-corals, 1371.7718072581008
+isolation_source:co-culture, 0.0
+isolation_source:coalbed-water, 0.0
+isolation_source:coast, 1099.4686091982096
+isolation_source:cold, 0.0
+isolation_source:composting, 0.0
+isolation_source:container-reservoir, 6.616188472608461
+isolation_source:contaminant, 0.0
+isolation_source:contamination, 0.0
+isolation_source:cooling-tower, 0.0
+isolation_source:coral-reef, 0.0
+isolation_source:core-sample, 58.53594049776962
+isolation_source:cotton-other-fibres, 0.0
+isolation_source:crustacea, 703.5252112087909
+isolation_source:currency, 0.0
+isolation_source:cystic-fibrosis, 0.0
+isolation_source:dairy-product, 40.19021254875069
+isolation_source:decomposing-algae, 0.0
+isolation_source:decomposing-animal, 20.425699570465035
+isolation_source:decomposing-plant, 0.0
+isolation_source:defined-media, 0.0
+isolation_source:dental-plaque, 0.0
+isolation_source:desert, 0.0
+isolation_source:digestive-fluid, 0.0
+isolation_source:dinoflagellate, 128.04380148131742
+isolation_source:disease, 0.0
+isolation_source:domestic-waste, 0.0
+isolation_source:dust, 0.0
+isolation_source:dust-ash, 0.0
+isolation_source:ear, 0.0
+isolation_source:echinodermata, 876.6714074372279
+isolation_source:egg, 109.56238973189669
+isolation_source:endosphere, 0.0
+isolation_source:endosymbiont, 0.0
+isolation_source:engineered, 0.0
+isolation_source:engineered-product, 0.0
+isolation_source:environmental, 0.0
+isolation_source:epibiont, 55.98885390038042
+isolation_source:equidae-horse, 0.0
+isolation_source:estuary, 24.617264131321313
+isolation_source:extracellular, 0.0
+isolation_source:eye, 0.0
+isolation_source:feces-stool, 0.0
+isolation_source:felidae-cat, 0.0
+isolation_source:female, 0.0
+isolation_source:fermented, 0.0
+isolation_source:field, 0.0
+isolation_source:fishes, 1200.6759568962516
+isolation_source:flower, 0.0
+isolation_source:fluids, 0.0
+isolation_source:foam, 0.0
+isolation_source:food, 0.0
+isolation_source:food-production, 0.0
+isolation_source:food_fermented, 0.0
+isolation_source:foot, 0.0
+isolation_source:forest, 0.0
+isolation_source:freshwater, 0.0
+isolation_source:fruit-seed, 0.0
+isolation_source:fungi, 0.0
+isolation_source:gall, 0.0
+isolation_source:garden, 0.0
+isolation_source:gastrointestinal-tract, 0.0
+isolation_source:geologic, 51.499191083656804
+isolation_source:gingiva, 0.0
+isolation_source:glacier, 0.0
+isolation_source:grassland, 0.0
+isolation_source:green-algae, 883.3247321518675
+isolation_source:greenhouse, 0.0
+isolation_source:groundwater, 0.0
+isolation_source:grove-orchard, 0.0
+isolation_source:hand, 0.0
+isolation_source:head, 0.0
+isolation_source:heart, 0.0
+isolation_source:heart-valve, 0.0
+isolation_source:heavy-metal, 0.0
+isolation_source:herbaceous-plants-grass,crops, 791.7618490956494
+isolation_source:host, 0.0
+isolation_source:host-body-product, 0.0
+isolation_source:host-body-site, 0.0
+isolation_source:host_animal_ectotherm, 115.09767324716323
+isolation_source:host_animal_endotherm, 0.0
+isolation_source:host_animal_endotherm_intratissue, 0.0
+isolation_source:host_animal_endotherm_rumen, 0.0
+isolation_source:hot, 0.0
+isolation_source:house, 0.0
+isolation_source:human, 846.4408953203227
+isolation_source:humid, 0.0
+isolation_source:hydrothermal-vent, 30.880023083784614
+isolation_source:ice, 87.95128624221488
+isolation_source:immunocompromised, 0.0
+isolation_source:in-situ, 0.0
+isolation_source:indoor, 0.0
+isolation_source:indoor-air, 0.0
+isolation_source:industrial, 0.0
+isolation_source:industrial-production, 0.0
+isolation_source:industrial-waste, 0.0
+isolation_source:industrial-wastewater, 0.0
+isolation_source:infection, 0.0
+isolation_source:inflammation, 0.0
+isolation_source:insecta, 0.0
+isolation_source:invertebrates-other, 9.045015509618661
+isolation_source:iron-mat, 1.2631561167854481
+isolation_source:joint, 0.0
+isolation_source:juice-natural, 0.0
+isolation_source:juvenile, 0.0
+isolation_source:kidney, 0.0
+isolation_source:lab-enrichment, 0.0
+isolation_source:laboratory, 0.0
+isolation_source:lake-large, 360.20256856107716
+isolation_source:landfill, 0.0
+isolation_source:large-intestine, 0.0
+isolation_source:leaf-phyllosphere, 0.0
+isolation_source:leg, 0.0
+isolation_source:leporidae-rabbit/hare, 0.0
+isolation_source:lesion-incl.-necrosis, 0.0
+isolation_source:lichen, 0.0
+isolation_source:limb, 0.0
+isolation_source:liver, 0.0
+isolation_source:livestock-husbandry, 0.0
+isolation_source:lung, 0.0
+isolation_source:lymph-node, 0.0
+isolation_source:machines-and-devices, 0.0
+isolation_source:male, 0.0
+isolation_source:mammals, 0.0
+isolation_source:mammary-gland, 0.0
+isolation_source:mangrove, 1538.2293950725916
+isolation_source:marine, 15920.767742626926
+isolation_source:meadow, 0.0
+isolation_source:meat, 0.0
+isolation_source:medical-device, 0.0
+isolation_source:medical-environment, 2.392278969063863
+isolation_source:medical-practice, 0.0
+isolation_source:medical-product, 0.0
+isolation_source:meningitis, 0.0
+isolation_source:microbial, 0.0
+isolation_source:microbial-community, 0.0
+isolation_source:microbial-mat, 28.526080869123504
+isolation_source:milk, 0.0
+isolation_source:mine, 0.0
+isolation_source:mollusca, 2388.9696231007138
+isolation_source:moss, 0.0
+isolation_source:mouth, 0.0
+isolation_source:mucus, 0.0
+isolation_source:mud-sludge, 97.3263507255788
+isolation_source:muridae-mouse/rat, 0.0
+isolation_source:mushroom, 0.0
+isolation_source:mycorrhiza, 0.0
+isolation_source:mycosis, 0.0
+isolation_source:nectar, 0.0
+isolation_source:nematoda, 0.0
+isolation_source:nephridium, 0.0
+isolation_source:non-marine-saline-and-alkaline, 0.0
+isolation_source:nose, 0.0
+isolation_source:oil-food, 0.0
+isolation_source:oil-fuel, 72.68316582489915
+isolation_source:oil-reservoir, 31.065793788450446
+isolation_source:oral-cavity-and-airways, 0.0
+isolation_source:organ, 40.941400520437654
+isolation_source:other, 23.001763573529704
+isolation_source:outdoor-air, 0.0
+isolation_source:ovary, 0.0
+isolation_source:paddy-ricefield, 0.0
+isolation_source:painting, 585.4198204347647
+isolation_source:patient, 0.0
+isolation_source:peat-moss, 0.0
+isolation_source:periodontal-pocket, 0.0
+isolation_source:permafrost, 0.0
+isolation_source:pesticide, 0.0
+isolation_source:phlegm, 0.0
+isolation_source:phylloplane, 0.0
+isolation_source:plant, 0.0
+isolation_source:plant-exudate-resin, 0.0
+isolation_source:plant-factory, 0.0
+isolation_source:plant-infections, 0.0
+isolation_source:plant-litter-forest, 0.0
+isolation_source:plant-sap-flux, 0.0
+isolation_source:plantation, 0.0
+isolation_source:plants, 0.0
+isolation_source:plaque, 0.0
+isolation_source:pleural-fluid, 0.0
+isolation_source:polar, 86.45918767391626
+isolation_source:pond-small, 52.42144488718343
+isolation_source:porifera-sponges, 486.28281196040666
+isolation_source:preserved, 0.0
+isolation_source:primates, 0.0
+isolation_source:protist, 0.0
+isolation_source:protozoa, 0.0
+isolation_source:psychrophilic-<10°c, 46.22278571452654
+isolation_source:rectum, 0.0
+isolation_source:red-algae, 101.24276132682728
+isolation_source:reptilia, 0.0
+isolation_source:rhizoplane, 0.0
+isolation_source:rhizosphere, 292.92675626942344
+isolation_source:river-creek, 0.0
+isolation_source:rodentia-other, 0.0
+isolation_source:root-nodule, 0.0
+isolation_source:root-rhizome, 0.0
+isolation_source:root-tooth, 0.0
+isolation_source:rot-root,stem, 0.0
+isolation_source:rumen, 0.0
+isolation_source:rumen-fluid, 0.0
+isolation_source:saline, 5689.18873626362
+isolation_source:saliva, 0.0
+isolation_source:salmonidae, 0.0
+isolation_source:salt-marsh, 0.3169892384115926
+isolation_source:sandy, 0.0
+isolation_source:seafood, 906.5890428612787
+isolation_source:sediment, 2350.936279468518
+isolation_source:semen, 0.0
+isolation_source:semiarid, 0.0
+isolation_source:sewage-sludge, 0.0
+isolation_source:shrub-scrub, 103.2266303621394
+isolation_source:simulated-communities, 0.0
+isolation_source:skin,-nail,-hair, 0.0
+isolation_source:small-intestine, 0.0
+isolation_source:soil, 3587.915045245124
+isolation_source:solid-animal-waste, 0.0
+isolation_source:solid-plant-waste, 0.0
+isolation_source:solid-waste, 0.0
+isolation_source:specimen, 0.0
+isolation_source:spinal-cord, 0.0
+isolation_source:spleen, 0.0
+isolation_source:spoiled, 0.0
+isolation_source:spot-leaf,stem, 0.0
+isolation_source:spring, 0.0
+isolation_source:sputum, 0.0
+isolation_source:starter-culture, 0.0
+isolation_source:stem-branch, 64.36210168740323
+isolation_source:sterilized-desinfected, 0.0
+isolation_source:sterilized-plant-part, 190.4335674883349
+isolation_source:stomach, 0.0
+isolation_source:straw, 0.0
+isolation_source:subarctic, 0.0
+isolation_source:subgingival-plaque, 0.0
+isolation_source:subtropical, 0.0
+isolation_source:sugary-food, 0.0
+isolation_source:suidae-pig,swine, 0.0
+isolation_source:sulfuric, 0.0
+isolation_source:surface-swab, 0.0
+isolation_source:surface-water, 364.54308712698776
+isolation_source:swab, 0.0
+isolation_source:synovial-fluid, 0.0
+isolation_source:temperate, 0.0
+isolation_source:terrestrial, 80.83287736276732
+isolation_source:thermal-spring, 0.0
+isolation_source:thermophilic->45°c, 214.38200224482765
+isolation_source:thoracic-segment, 0.0
+isolation_source:throat, 0.0
+isolation_source:tick, 0.0
+isolation_source:tidal-flat, 2109.561483393292
+isolation_source:timber, 0.0
+isolation_source:tooth, 0.0
+isolation_source:torso, 0.0
+isolation_source:trachea, 0.0
+isolation_source:transportation-ways-roads, 0.0
+isolation_source:treatment, 0.0
+isolation_source:tree, 0.0
+isolation_source:tropical, 0.0
+isolation_source:tuberculosis, 0.0
+isolation_source:tundra, 0.0
+isolation_source:tunicata, 724.0770712251363
+isolation_source:urethra, 0.0
+isolation_source:urine, 0.0
+isolation_source:urogenital-tract, 0.0
+isolation_source:vagina, 0.0
+isolation_source:vaginal-secretion, 0.0
+isolation_source:vascular-system, 0.0
+isolation_source:vegetable-incl.-grains, 55.026023441208565
+isolation_source:vineyard, 0.0
+isolation_source:viriome, 0.0
+isolation_source:volcanic, 0.0
+isolation_source:vomit, 0.0
+isolation_source:waste, 0.0
+isolation_source:waste-gas, 0.0
+isolation_source:wastewater, 0.0
+isolation_source:water-reservoir-aquarium/pool, 21.427088270005456
+isolation_source:water-treatment-plant, 0.0
+isolation_source:wetland-swamp, 0.0
+isolation_source:wilt, 0.0
+isolation_source:wound, 0.0
+isolation_source:wound-fluid, 0.0
+isolation_source:xerophilic, 0.0
+isolation_source:xerophytic, 0.0
+isolation_source:yeast, 0.0
+isolation_source:zebrafish, 0.0
+isolation_source:zooplankton, 10.013654425992147
+motility:motile, 677.5892284371839
+motility:non_motile, 0.0
+oxygen:aerobe, 690.0961625721268
+oxygen:aerotolerant, 0.0
+oxygen:anaerobe, 12650.995060590976
+oxygen:facultative_aerobe, 0.0
+oxygen:facultative_anaerobe, 0.0
+oxygen:microaerophile, 1738.0046122533313
+oxygen:microaerotolerant, 0.0
+oxygen:obligate_aerobe, 164.86125200454333
+oxygen:obligate_anaerobe, 0.0
+pH_delta:high, 0.0
+pH_delta:low, 0.0
+pH_delta:mid1, 30.30953609128798
+pH_delta:mid2, 0.0
+pH_delta:mid3, 0.0
+pH_delta:very_low, 37.549345887007455
+pH_opt:high, 0.0
+pH_opt:low, 0.0
+pH_opt:mid1, 148.66759359511386
+pH_opt:mid2, 686.1651828704747
+pH_range:low, 0.0
+pH_range:mid1, 0.0
+pH_range:mid2, 0.0
+pH_range:mid3, 0.0
+pH_range:mid4, 0.0
+pathogen:animal, 91.3076442002366
+pathogen:human, 811.0464888860056
+pathogen:plant, 0.0
+pathways:acetogenesis, 0.0
+pathways:aerobic_anoxygenic_phototrophy, 24.1436608647646
+pathways:aerobic_chemo_heterotrophy, 0.0
+pathways:aerobic_heterotrophy, 0.0
+pathways:aliphatic_non_methane_hydrocarbon_degradation, 0.0
+pathways:aminoacid_degradation, 0.0
+pathways:anoxygenic_photoautotrophy, 0.0
+pathways:anoxygenic_photoautotrophy_hydrogen_oxidation, 0.0
+pathways:anoxygenic_photoautotrophy_iron_oxidation, 0.0
+pathways:anoxygenic_photoautotrophy_sulfur_oxidation, 0.0
+pathways:antibiotic_resistance, 0.0
+pathways:aromatic_compound_degradation, 0.0
+pathways:aromatic_hydrocarbon_degradation, 0.0
+pathways:arsenate_reduction, 0.0
+pathways:arsenite_oxidation, 0.0
+pathways:autotrophy, 0.0
+pathways:carbon_monoxide_oxidation, 0.0
+pathways:carbonmonoxide_oxidation, 0.0
+pathways:carbonmonoxide_reduction, 0.0
+pathways:cellobiose_degradation, 0.0
+pathways:cellulose_degradation, 0.0
+pathways:chalcopyrite_oxidation, 0.0
+pathways:chitin_degradation, 0.0
+pathways:chlorate_reduction, 0.0
+pathways:denitrification, 0.0
+pathways:fermentation, 0.0
+pathways:fumarate_reduction, 0.0
+pathways:galena_oxidation, 0.0
+pathways:heterotrophic, 0.0
+pathways:hydrocarbon_degradation, 0.0
+pathways:hydrogen_oxidation, 0.0
+pathways:hydrogen_oxidation_dark, 4.213465094323686
+pathways:iron_oxidation, 0.0
+pathways:iron_oxidation_dark, 0.0
+pathways:iron_reduction, 0.0
+pathways:ligninolysis, 0.0
+pathways:manganese_oxidation, 0.0
+pathways:manganese_reduction, 0.0
+pathways:methane_oxidation, 0.0
+pathways:methanogenesis, 0.0
+pathways:methanogenesis_acetoclastic, 0.0
+pathways:methanogenesis_h2co2, 0.0
+pathways:methanol_oxidation, 0.0
+pathways:methylotrophy, 0.0
+pathways:nitrate_reduction, 0.0
+pathways:nitrate_reduction_to_ammonia, 0.0
+pathways:nitric_oxide_reduction, 0.0
+pathways:nitrification, 0.0
+pathways:nitrite_reduction, 0.0
+pathways:nitrite_reduction_to_ammonia, 0.0
+pathways:nitrogen_fixation, 0.0
+pathways:nitrous_oxide_reduction, 0.0
+pathways:pah_degradation, 0.0
+pathways:photoheterotrophy, 0.0
+pathways:plastic_degradation, 0.0
+pathways:pyrite_oxidation, 0.0
+pathways:selenate_reduction, 0.0
+pathways:sulfate_reduction, 0.0
+pathways:sulfide_oxidation, 0.0
+pathways:sulfide_oxidation_dark, 0.0
+pathways:sulfite_oxidation_dark, 0.0
+pathways:sulfite_reduction, 0.0
+pathways:sulfur_compound_oxidation_dark, 0.0
+pathways:sulfur_oxidation, 0.0
+pathways:sulfur_oxidation_dark, 0.0
+pathways:sulfur_reduction, 0.0
+pathways:tetrathionate_oxidation, 0.0
+pathways:thiosulfate_disproportionation, 0.0
+pathways:thiosulfate_oxidation, 0.0
+pathways:thiosulfate_oxidation_dark, 0.0
+pathways:thiosulfate_reduction, 0.0
+pathways:uraninite_oxidation, 0.0
+pathways:uranyl_reduction, 0.0
+pathways:urea_degradation, 17.632527555319182
+pathways:xylan_degradation, 0.0
+pigment:black, 0.0
+pigment:brown, 0.0
+pigment:carotenoid, 0.0
+pigment:cream, 0.0
+pigment:green, 0.7353465041558882
+pigment:orange, 0.0
+pigment:pink, 0.0
+pigment:red, 0.0
+pigment:white, 0.0
+pigment:yellow, 5.318914299143734
+production:alcohol, 0.0
+production:amino_acid, 0.0
+production:antibiotic_compound, 0.0
+production:lactate, 0.0
+production:methane, 0.0
+production:pigmented, 13.856858518084902
+production:polysaccharide, 0.0
+production:toxin, 10.348741125186189
+salinity:extremely_halophilic, 0.0
+salinity:halophilic, 10.944868254473592
+salinity:halotolerant, 0.0
+salinity:moderately_halophilic, 101.87064810764278
+salinity:non_halophilic, 0.0
+salinity:slightly_halophilic, 7.651086315671903
+sporulation:non_spore_forming, 42.05096252910368
+sporulation:spore_forming, 49.7649751445223
+temp_delta:high, 0.0
+temp_delta:low, 0.0
+temp_delta:mid1, 0.0
+temp_delta:mid2, 0.0
+temp_delta:mid3, 0.0
+temp_opt:high, 30.671267199799946
+temp_opt:low, 0.0
+temp_opt:mid1, 61.73924472354659
+temp_opt:mid2, 198.79199549613853
+temp_opt:mid3, 0.0
+temp_opt:mid4, 0.0
+temp_opt:very_low, 0.0
+temp_range:high, 0.0
+temp_range:low, 0.0
+temp_range:mid1, 0.0
+temp_range:mid2, 342.6666809988948
+temp_range:mid3, 0.0
+temp_range:mid4, 0.0
+temp_range:very_low, 0.0
+temperature:hyperthermophilic, 0.0
+temperature:mesophilic, 2509.3677054156524
+temperature:psychrophilic, 2706.1237372630444
+temperature:thermophilic, 0.0
+trophic_type:autotrophy, 0.0
+trophic_type:chemoautolithotrophy, 0.0
+trophic_type:chemoautotrophy, 0.42047547370522037
+trophic_type:chemoheterotrophy, 89.23336438059486
+trophic_type:chemolithoautotrophy, 0.0
+trophic_type:chemolithoheterotrophy, 0.0
+trophic_type:chemolithotrophy, 0.0
+trophic_type:chemoorganoheterotrophy, 0.0
+trophic_type:chemoorganotrophy, 0.0
+trophic_type:chemotrophy, 0.0
+trophic_type:copiotroph_diazotrophy, 0.0
+trophic_type:heterotrophy, 0.0
+trophic_type:lithoautotrophy, 0.0
+trophic_type:lithoheterotrophy, 0.0
+trophic_type:lithotrophy, 0.0
+trophic_type:methylotrophy, 0.0
+trophic_type:mixotrophy, 0.0
+trophic_type:organoheterotrophy, 0.0
+trophic_type:organotrophy, 0.0
+trophic_type:photoheterotrophy, 0.0
+trophic_type:phototrophy, 0.0
+ LENGTHS FI: 1781, 1781
+ DIM 1, SHAPE (1781,)
+FEATURE IMPORTANCE SHAP
+ LENGTHS: 1781, 18017
+ DIM 3, SHAPE (18017, 2, 1782)
+ DIM2 1, SHAPE (1781,)
+ DIM2T 1, SHAPE (1781,)
+ LENGTHS: 1781, 1781
+ LENGTHS TEST: 1781, 1781
+{'Key': 'CHEBI:100147', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:100241', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:100246', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:10057', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:102130', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:102484', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:115156', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:116278', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:124991', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:125610', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:12931', 'Value1': 0.019119721900957905, 'Value2': 0.010660163357209014}
+{'Key': 'CHEBI:12936', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:132106', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:132111', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:132112', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:132943', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:132950', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:133748', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:13389', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:134606', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:135854', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:135874', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:13705', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:140148', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:141991', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:143136', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:14314', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:14321', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:14336', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:145778', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:15075', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:15138', 'Value1': 0.459167170514407, 'Value2': 0.3632516416528789}
+{'Key': 'CHEBI:15226', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:15318', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:15347', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:15353', 'Value1': 0.03565480399639406, 'Value2': 0.01754301522503762}
+{'Key': 'CHEBI:15354', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:15356', 'Value1': 0.16305771255240184, 'Value2': 0.13838501032235895}
+{'Key': 'CHEBI:15361', 'Value1': 1.2973289172636568, 'Value2': 1.412636230473868}
+{'Key': 'CHEBI:15369', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:15379', 'Value1': 0.3258606936280964, 'Value2': 0.3046923146198938}
+{'Key': 'CHEBI:15428', 'Value1': 1.0839912825361444, 'Value2': 1.2815711050091374}
+{'Key': 'CHEBI:15443', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:15570', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:15588', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:15589', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:15603', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:15611', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:156421', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:156450', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:156452', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:156550', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:15676', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:15688', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:15708', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:157175', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:15724', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:15729', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:15738', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:15740', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:15746', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:15748', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:157683', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:15782', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:15792', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:15824', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:15862', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:15882', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:15887', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:15891', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:15895', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:15903', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:15956', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:15963', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:15971', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:15978', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:15987', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:16000', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:16004', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:16016', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:16024', 'Value1': 6.971679096477842, 'Value2': 6.995493280777295}
+{'Key': 'CHEBI:160246', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:16027', 'Value1': 0.02261200229630267, 'Value2': 0.01210503190698023}
+{'Key': 'CHEBI:16040', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:16087', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:16094', 'Value1': 1.5347678565915737, 'Value2': 1.2201374350912304}
+{'Key': 'CHEBI:16133', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:16134', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:16136', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:16148', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:16150', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:161680', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:16176', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:16183', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:16189', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:16193', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:16199', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:16227', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:16235', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:16236', 'Value1': 0.4986546052483321, 'Value2': 0.39018474324304675}
+{'Key': 'CHEBI:16261', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:16283', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:16296', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:16301', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:16324', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:16335', 'Value1': 0.032708196311228566, 'Value2': 0.03207377505004927}
+{'Key': 'CHEBI:16349', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:16383', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:16397', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:16398', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:16411', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:16414', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:16443', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:16449', 'Value1': 1.1614937705820323, 'Value2': 1.0908498854065851}
+{'Key': 'CHEBI:16452', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:16467', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:16523', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:16526', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:16537', 'Value1': 0.2073844908270224, 'Value2': 0.21305379615501124}
+{'Key': 'CHEBI:16551', 'Value1': 0.48422699546941234, 'Value2': 0.561752818057445}
+{'Key': 'CHEBI:16567', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:16632', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:16634', 'Value1': 4.056502532456072, 'Value2': 4.16572788750944}
+{'Key': 'CHEBI:16643', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:16651', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:166872', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:16695', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:16704', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:16708', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:16716', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:16724', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:16763', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:16765', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:16808', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:16810', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:16811', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:16813', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:16828', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:16830', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:16856', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:16857', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:16865', 'Value1': 0.4583873428025399, 'Value2': 0.4183619665789676}
+{'Key': 'CHEBI:16867', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:16869', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:16899', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:16919', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:16947', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:16958', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:16977', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:16988', 'Value1': 3.315963901744948, 'Value2': 3.412613071537796}
+{'Key': 'CHEBI:16991', 'Value1': 1.546366549777647, 'Value2': 1.5362057707915533}
+{'Key': 'CHEBI:16997', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:17015', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:17019', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:17020', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:17029', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:17045', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:17057', 'Value1': 3.1361164950964877, 'Value2': 3.075743058338816}
+{'Key': 'CHEBI:17076', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:17097', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:17108', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:17113', 'Value1': 0.054108294840039504, 'Value2': 0.04607740298681954}
+{'Key': 'CHEBI:17115', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:17120', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:17126', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:17128', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:17148', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:17151', 'Value1': 1.4279604741388794, 'Value2': 1.4026367248408729}
+{'Key': 'CHEBI:17164', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:17170', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:17191', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:17196', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:17201', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:17203', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:17234', 'Value1': 9.072974765168551, 'Value2': 8.90528329349942}
+{'Key': 'CHEBI:17240', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:17245', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:17256', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:17266', 'Value1': 0.706794217586742, 'Value2': 0.6995000988308817}
+{'Key': 'CHEBI:17268', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:17272', 'Value1': 0.9172203948359314, 'Value2': 0.8969662886718286}
+{'Key': 'CHEBI:17295', 'Value1': 0.050367907538456054, 'Value2': 0.08918989750239356}
+{'Key': 'CHEBI:17306', 'Value1': 19.589868347356166, 'Value2': 18.97052905008259}
+{'Key': 'CHEBI:17309', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:17315', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:17317', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:17334', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:17359', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:17368', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:17376', 'Value1': 0.02155413399918892, 'Value2': 0.013613272923280231}
+{'Key': 'CHEBI:17426', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:17437', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:17440', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:17464', 'Value1': 0.07268269295624538, 'Value2': 0.04559762988478408}
+{'Key': 'CHEBI:17521', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:17540', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:17561', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:17578', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:17596', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:17632', 'Value1': 6.230926953275225, 'Value2': 6.171233067316026}
+{'Key': 'CHEBI:17634', 'Value1': 16.956881278647423, 'Value2': 16.843453806552507}
+{'Key': 'CHEBI:17665', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:176843', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:17698', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:17716', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:17747', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:17748', 'Value1': 1.120212743004001, 'Value2': 1.0641282827567753}
+{'Key': 'CHEBI:17750', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:17754', 'Value1': 8.535121905826378, 'Value2': 8.401482096458325}
+{'Key': 'CHEBI:17774', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:17784', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:17790', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:17814', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:17822', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:17824', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:17833', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:17836', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:17859', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:17879', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:17895', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:17924', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:17925', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:17968', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:17992', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:17997', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:18019', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:18024', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:18050', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:18101', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:18123', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:18132', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:18135', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:18139', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:18183', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:18186', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:18203', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:18208', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:18212', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:18222', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:18240', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:18248', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:18257', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:18262', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:18276', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:18281', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:18287', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:18291', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:18295', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:18300', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:18305', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:18333', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:18347', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:18391', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:18394', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:18397', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:18401', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:18403', 'Value1': 0.9133754874195289, 'Value2': 0.9138837801200935}
+{'Key': 'CHEBI:18420', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:1904', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:19475', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:204928', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:209807', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:21217', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:2179', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:22210', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:22507', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:22599', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:22605', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:22651', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:22653', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:22743', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:22907', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:23044', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:23066', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:23248', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:23456', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:23652', 'Value1': 1.7537459597403093, 'Value2': 1.754426996046943}
+{'Key': 'CHEBI:24148', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:24149', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:24175', 'Value1': 0.8121037749794188, 'Value2': 0.7528920074593833}
+{'Key': 'CHEBI:24265', 'Value1': 1.439256590385034, 'Value2': 1.7735315669959606}
+{'Key': 'CHEBI:24266', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:24297', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:24632', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:24741', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:24750', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:24753', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:24898', 'Value1': 0.10045836077633552, 'Value2': 0.05194090530521514}
+{'Key': 'CHEBI:24996', 'Value1': 4.627326193385554, 'Value2': 4.513175682254976}
+{'Key': 'CHEBI:25000', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:25017', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:2509', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:25094', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:25097', 'Value1': 0.03244360841192132, 'Value2': 0.024402730470189964}
+{'Key': 'CHEBI:2511', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:25115', 'Value1': 8.627035854622363, 'Value2': 8.342872792664425}
+{'Key': 'CHEBI:25140', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:25646', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:26194', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:26271', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:2637', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:26490', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:26493', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:2652', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:26546', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:26580', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:26672', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:26710', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:2676', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:26789', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:26806', 'Value1': 1.3439024556202248, 'Value2': 1.1631917419335043}
+{'Key': 'CHEBI:26948', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:26986', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:27082', 'Value1': 4.22557540184467, 'Value2': 4.1531158833058575}
+{'Key': 'CHEBI:27226', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:27248', 'Value1': 0.32667237385512116, 'Value2': 0.32859199977655656}
+{'Key': 'CHEBI:27266', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:27338', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:27417', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:27442', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:27477', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:27518', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:27547', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:27569', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:27570', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:27605', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:27612', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:27613', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:27641', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:27644', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:27680', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:27689', 'Value1': 2.4970320956418175, 'Value2': 2.5766511318463987}
+{'Key': 'CHEBI:27701', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:27856', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:27897', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:2790', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:27902', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:27922', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:27941', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:28001', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:28017', 'Value1': 0.621667449173321, 'Value2': 0.5582400265532795}
+{'Key': 'CHEBI:28034', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:28037', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:28044', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:28053', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:28066', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:28077', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:28087', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:28102', 'Value1': 0.03692774573879447, 'Value2': 0.04171225288876737}
+{'Key': 'CHEBI:28120', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:28196', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:28260', 'Value1': 3.1833977811596164, 'Value2': 3.316405715553959}
+{'Key': 'CHEBI:28262', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:28266', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:28300', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:28304', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:28340', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:28368', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:28644', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:28669', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:28675', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:28748', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:28757', 'Value1': 6.722661069210445, 'Value2': 6.824938356474313}
+{'Key': 'CHEBI:28800', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:28808', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:28816', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:28831', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:28847', 'Value1': 0.6988212663039813, 'Value2': 0.7720631489652089}
+{'Key': 'CHEBI:28851', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:28860', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:28864', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:28885', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:28908', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:28915', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:28938', 'Value1': 0.4912860036168043, 'Value2': 0.4779409401696797}
+{'Key': 'CHEBI:28945', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:28971', 'Value1': 0.8401942002542147, 'Value2': 1.0358292960186863}
+{'Key': 'CHEBI:29007', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:29016', 'Value1': 17.64524722033141, 'Value2': 17.21935911164638}
+{'Key': 'CHEBI:29021', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:29034', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:29042', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:29125', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:2955', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:29581', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:29582', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:29649', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:29665', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:29670', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:29671', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:29673', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:29687', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:29693', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:29749', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:29805', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:29806', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:29864', 'Value1': 4.723993949266594, 'Value2': 4.640794072601659}
+{'Key': 'CHEBI:29985', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:29987', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:29988', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:29990', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:29991', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:30031', 'Value1': 2.2160421072310164, 'Value2': 2.1020086337704806}
+{'Key': 'CHEBI:30033', 'Value1': 0.10101777349111127, 'Value2': 0.0631110019310427}
+{'Key': 'CHEBI:30043', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:30089', 'Value1': 5.538677183290731, 'Value2': 5.40620287298992}
+{'Key': 'CHEBI:30295', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:30411', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:30477', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:30612', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:30623', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:30751', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:30796', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:30797', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:30803', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:30832', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:30849', 'Value1': 9.411162063285735, 'Value2': 9.222908286991853}
+{'Key': 'CHEBI:30860', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:30911', 'Value1': 4.602963669663503, 'Value2': 4.647872795806316}
+{'Key': 'CHEBI:30916', 'Value1': 0.23108188476436742, 'Value2': 0.1694898443328812}
+{'Key': 'CHEBI:30924', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:30928', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:30929', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:31011', 'Value1': 1.3059946902768302, 'Value2': 1.1334875237205997}
+{'Key': 'CHEBI:31168', 'Value1': 0.05666436699872506, 'Value2': 0.028413846729809393}
+{'Key': 'CHEBI:31206', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:3122', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:31605', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:31639', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:31810', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:31845', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:31908', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:320055', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:320061', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:32032', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:32161', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:32323', 'Value1': 1.6731316388221114, 'Value2': 1.3001713406340318}
+{'Key': 'CHEBI:32361', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:32362', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:32373', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:32488', 'Value1': 0.04431871891034901, 'Value2': 0.022836458069530264}
+{'Key': 'CHEBI:32528', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:32544', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:32735', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:32892', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:32931', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:32954', 'Value1': 0.11663339800355114, 'Value2': 0.14551064624526175}
+{'Key': 'CHEBI:33290', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:33403', 'Value1': 1.0842070740593612, 'Value2': 0.9817246892603426}
+{'Key': 'CHEBI:3362', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:33697', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:3371', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:33801', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:33830', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:338412', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:33871', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:3393', 'Value1': 0.6269078922326962, 'Value2': 0.8027081252970528}
+{'Key': 'CHEBI:33942', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:33951', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:33954', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:33984', 'Value1': 0.3915944248484524, 'Value2': 0.42424695205227714}
+{'Key': 'CHEBI:3435', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:3480', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:3493', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:34948', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:35020', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:35022', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:35026', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:3508', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:3515', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:3517', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:3528', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:3534', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:35358', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:3537', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:35390', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:35391', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:35418', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:3542', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:3543', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:355715', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:35581', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:35687', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:3580', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:35860', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:35899', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:36218', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:36219', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:36241', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:36257', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:36405', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:36592', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:36655', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:36986', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:37054', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:37165', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:37166', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:3732', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:37397', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:3745', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:37657', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:37684', 'Value1': 4.919190023227124, 'Value2': 4.7717413416190295}
+{'Key': 'CHEBI:3770', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:37923', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:37943', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:37966', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:38030', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:3815', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:38291', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:39150', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:39201', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:39207', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:40538', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:40585', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:40656', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:41808', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:41865', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:41977', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:43943', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:43968', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:44337', 'Value1': 0.05361828768316315, 'Value2': 0.07681196683260973}
+{'Key': 'CHEBI:44504', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:45296', 'Value1': 0.028960277162869356, 'Value2': 0.015435197443022568}
+{'Key': 'CHEBI:45367', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:45422', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:45735', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:45773', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:45924', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:46050', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:46645', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:46793', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:471744', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:472657', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:474053', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:4767', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:478164', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:47869', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:48095', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:48267', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:4853', 'Value1': 13.78821590973661, 'Value2': 13.269872935749165}
+{'Key': 'CHEBI:48537', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:48607', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:4877', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:48844', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:48923', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:48942', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:48944', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:48947', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:49322', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:495055', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:495056', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:49566', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:49637', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:50048', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:50144', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:50344', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:50453', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:5054', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:506227', 'Value1': 4.709400623972155, 'Value2': 5.137587965482416}
+{'Key': 'CHEBI:50694', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:50819', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:50845', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:5181', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:51850', 'Value1': 1.6446758249005453, 'Value2': 1.8101199696249752}
+{'Key': 'CHEBI:5195', 'Value1': 0.014309761244924604, 'Value2': 0.007150602613385689}
+{'Key': 'CHEBI:52071', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:52722', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:5291', 'Value1': 8.288445289717922, 'Value2': 8.24441061738535}
+{'Key': 'CHEBI:53071', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:53156', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:53181', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:53200', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:53258', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:53259', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:53388', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:53423', 'Value1': 8.563276778746578, 'Value2': 8.380388512592635}
+{'Key': 'CHEBI:53424', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:53425', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:53426', 'Value1': 6.944300053947586, 'Value2': 6.527524395361551}
+{'Key': 'CHEBI:5390', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:5417', 'Value1': 0.05762943183451223, 'Value2': 0.06700517764921018}
+{'Key': 'CHEBI:546840', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:5533', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:55394', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:55507', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:57606', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:58044', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:58143', 'Value1': 0.739316498873514, 'Value2': 0.6746141813340905}
+{'Key': 'CHEBI:58187', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:59062', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:59066', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:59640', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:606565', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:6104', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:61490', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:6198', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:61993', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:61995', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:62064', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:62318', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:62320', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:62345', 'Value1': 2.6169579764322837, 'Value2': 2.699399278123533}
+{'Key': 'CHEBI:62501', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:62517', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:62946', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:62965', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:62968', 'Value1': 1.360782186422558, 'Value2': 1.3031746979596392}
+{'Key': 'CHEBI:62969', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:62983', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:63005', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:63038', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:63043', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:63051', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:63150', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:63153', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:63154', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:63486', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:63528', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:6359', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:63598', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:63607', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:63611', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:6364', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:63675', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:64103', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:64243', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:6426', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:6452', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:64552', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:6457', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:6472', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:65327', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:65328', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:66279', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:67135', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:6731', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:6827', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:68428', 'Value1': 0.12786584505096898, 'Value2': 0.15586780600590952}
+{'Key': 'CHEBI:68590', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:6872', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:68837', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:6909', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:6919', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:69414', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:70744', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:71321', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:71415', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:71422', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:71987', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:72346', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:72813', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:73167', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:73706', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:73784', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:73786', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:73804', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:73908', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:73918', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:74611', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:74846', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:74848', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:74863', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:7488', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:7507', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:75146', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:75193', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:75198', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:75211', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:75228', 'Value1': 0.033669590766293674, 'Value2': 0.01727641406117522}
+{'Key': 'CHEBI:75229', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:75248', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:75250', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:75273', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:7528', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:75832', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:7614', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:76282', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:7660', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:7731', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:77735', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:77879', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:78019', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:78021', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:7809', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:78208', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:78661', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:78697', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:7896', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:79285', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:7934', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:79394', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:80025', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:80052', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:8006', 'Value1': 0.13712154022556658, 'Value2': 0.07035640220818203}
+{'Key': 'CHEBI:80106', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:81283', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:81419', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:81430', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:8232', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:8295', 'Value1': 0.19652513972678146, 'Value2': 0.20472640144878132}
+{'Key': 'CHEBI:8309', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:83230', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:83267', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:8337', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:8391', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:84997', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:85146', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:85248', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:85249', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:85260', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:85274', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:86455', 'Value1': 0.0745406531007401, 'Value2': 0.0374414153421668}
+{'Key': 'CHEBI:86471', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:8653', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:87084', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:87209', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:87997', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:89634', 'Value1': 0.033852892069035995, 'Value2': 0.10768747877942299}
+{'Key': 'CHEBI:90144', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:90146', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:90148', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:90249', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:90259', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:90343', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:90350', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:90426', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:90603', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:90608', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:90741', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:91043', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:91050', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:91122', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:91260', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:9169', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:9215', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:9300', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:9321', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:9332', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:9337', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:9421', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:9506', 'Value1': 0.08727547363455601, 'Value2': 0.047919670057584844}
+{'Key': 'CHEBI:9542', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'CHEBI:9587', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'EC:1.11.1.6', 'Value1': 10.823189208353924, 'Value2': 10.79142777385104}
+{'Key': 'EC:1.12.99.6', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'EC:1.4.1.4', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'EC:1.7.99.4', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'EC:1.9.3.1', 'Value1': 103.62460438178147, 'Value2': 104.05049120461287}
+{'Key': 'EC:2.3.2.2', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'EC:2.7.7.16', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'EC:2.8.1.5', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'EC:3.1.1.3', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'EC:3.1.3.1', 'Value1': 10.291720381954278, 'Value2': 9.907621210727832}
+{'Key': 'EC:3.1.3.2', 'Value1': 25.22134341758765, 'Value2': 24.01599740662774}
+{'Key': 'EC:3.1.3.4', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'EC:3.1.6.1', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'EC:3.2.1.1', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'EC:3.2.1.14', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'EC:3.2.1.17', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'EC:3.2.1.20', 'Value1': 17.856255264455644, 'Value2': 17.173769834656817}
+{'Key': 'EC:3.2.1.21', 'Value1': 14.046427981596677, 'Value2': 13.998001810607562}
+{'Key': 'EC:3.2.1.22', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'EC:3.2.1.23', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'EC:3.2.1.24', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'EC:3.2.1.25', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'EC:3.2.1.31', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'EC:3.2.1.38', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'EC:3.2.1.4', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'EC:3.2.1.40', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'EC:3.2.1.51', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'EC:3.2.1.52', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'EC:3.2.1.55', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'EC:3.2.1.8', 'Value1': 0.047071813865164604, 'Value2': 0.024160634620288276}
+{'Key': 'EC:3.2.1.81', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'EC:3.2.1.85', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'EC:3.4.1.1', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'EC:3.4.11.1', 'Value1': 20.39123718884911, 'Value2': 19.38242827722365}
+{'Key': 'EC:3.4.11.2', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'EC:3.4.11.21', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'EC:3.4.11.3', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'EC:3.4.11.4', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'EC:3.4.11.5', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'EC:3.4.19.3', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'EC:3.4.21.1', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'EC:3.4.21.4', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'EC:3.4.21.50', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'EC:3.4.4.5', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'EC:3.5.1.5', 'Value1': 23.146819603595375, 'Value2': 23.010250831464408}
+{'Key': 'EC:3.5.1.B15', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'EC:3.5.2.6', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'EC:3.5.3.6', 'Value1': 8.78585631033844, 'Value2': 8.416438190831009}
+{'Key': 'EC:3.9.1.1', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'EC:4.1.1.15', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'EC:4.1.1.17', 'Value1': 5.628565349002142, 'Value2': 5.72133424851721}
+{'Key': 'EC:4.1.1.18', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'EC:4.1.1.19', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'EC:4.1.1.27', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'EC:4.1.2.22', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'EC:4.1.99.1', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'EC:4.3.1.5', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'ENVO:00000035', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'ENVO:00000051', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'ENVO:00000073', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'ENVO:00000134', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'ENVO:00000215', 'Value1': 0.6524136555613828, 'Value2': 0.6640002450657693}
+{'Key': 'ENVO:00000247', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'ENVO:00001995', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'ENVO:00001998', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'ENVO:00002001', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'ENVO:00002006', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'ENVO:00002007', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'ENVO:00002011', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'ENVO:00002012', 'Value1': 0.4883129743935731, 'Value2': 0.4238729276654652}
+{'Key': 'ENVO:00002019', 'Value1': 0.15259023894079568, 'Value2': 0.18447338700950652}
+{'Key': 'ENVO:00002034', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'ENVO:00002044', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'ENVO:00002113', 'Value1': 0.21575825538656043, 'Value2': 0.18934358525274214}
+{'Key': 'ENVO:00002123', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'ENVO:00002149', 'Value1': 17.019455550302034, 'Value2': 16.50860147598807}
+{'Key': 'ENVO:00002170', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'ENVO:00002259', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'ENVO:00002261', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'ENVO:00002984', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'ENVO:00005750', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'ENVO:00005774', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'ENVO:01000164', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'ENVO:01000230', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'ENVO:01000256', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'ENVO:01000306', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'ENVO:01000357', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'ENVO:01000628', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'ENVO:01001001', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'ENVO:01001002', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'ENVO:01001004', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'ENVO:01001029', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'ENVO:01001040', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'ENVO:01001041', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'ENVO:02500019', 'Value1': 0.1967062111674654, 'Value2': 0.13106927882619365}
+{'Key': 'ENVO:02500038', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'ENVO:03000033', 'Value1': 1.4140657960139993, 'Value2': 1.3587298295157273}
+{'Key': 'ENVO:08000002', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'ENVO:2100002', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'ENVO:2100003', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'NaCl_delta:high', 'Value1': 4.112485510699612, 'Value2': 3.879156225045686}
+{'Key': 'NaCl_delta:low', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'NaCl_delta:mid', 'Value1': 2.42116076866696, 'Value2': 2.340679150602517}
+{'Key': 'NaCl_delta:very_low', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'NaCl_opt:high', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'NaCl_opt:low', 'Value1': 12.221883221920564, 'Value2': 11.390253541380567}
+{'Key': 'NaCl_opt:mid', 'Value1': 4.364945297130884, 'Value2': 4.410586630737166}
+{'Key': 'NaCl_opt:very_low', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'NaCl_range:high', 'Value1': 18.03723079255275, 'Value2': 17.488708333454635}
+{'Key': 'NaCl_range:low', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'NaCl_range:mid', 'Value1': 20.23041815977018, 'Value2': 19.46881867858764}
+{'Key': 'NaCl_range:very_low', 'Value1': 2.843204455932522, 'Value2': 2.7558057012462673}
+{'Key': 'PATO:0001162', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'PATO:0001306', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'PATO:0001430', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'PATO:0001472', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'PATO:0001596', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'PATO:0002425', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'PO:0025034', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'UBERON:0000065', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'UBERON:0000178', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'UBERON:0000468', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'UBERON:0000996', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'UBERON:0001913', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20A_ARA', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20A_CAT', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20A_CEL', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20A_COCC', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20A_ESC', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20A_GEL', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20A_GLU', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20A_GLY', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20A_GRAM', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20A_IND', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20A_LAC', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20A_MAL', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20A_MAN', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20A_MLZ', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20A_MNE', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20A_RAF', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20A_RHA', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20A_SAC', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20A_SAL', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20A_SOR', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20A_SPOR', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20A_TRE', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20A_URE', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20A_XYL', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20E_ADH Arg', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20E_AMY', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20E_ARA', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20E_CIT', 'Value1': 2.0772353503625367, 'Value2': 2.103569507539197}
+{'Key': 'assay:API_20E_GEL', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20E_GLU', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20E_H2S', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20E_IND', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20E_INO', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20E_LDC Lys', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20E_MAC', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20E_MAN', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20E_MEL', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20E_MOB', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20E_N2', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20E_NO2', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20E_ODC', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20E_ONPG', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20E_OX', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20E_RHA', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20E_SAC', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20E_Sor', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20E_TDA Trp', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20E_URE', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20E_VP', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20NE_ADH Arg', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20NE_ADI', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20NE_ARA', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20NE_CAP', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20NE_CIT', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20NE_ESC', 'Value1': 2.945004884509985, 'Value2': 2.918697188347083}
+{'Key': 'assay:API_20NE_GEL', 'Value1': 1.4217776534785385, 'Value2': 1.382184601628199}
+{'Key': 'assay:API_20NE_GLU_ Assim', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20NE_GLU_ Ferm', 'Value1': 4.702061302478491, 'Value2': 5.269486974480723}
+{'Key': 'assay:API_20NE_GNT', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20NE_MAL', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20NE_MAN', 'Value1': 4.345861581773849, 'Value2': 4.256226748645799}
+{'Key': 'assay:API_20NE_MLT', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20NE_MNE', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20NE_NAG', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20NE_NO3', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20NE_OX', 'Value1': 11.37144203685365, 'Value2': 11.109632012914298}
+{'Key': 'assay:API_20NE_PAC', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20NE_PNPG', 'Value1': 13.610282842681459, 'Value2': 12.983611091229506}
+{'Key': 'assay:API_20NE_TRP', 'Value1': 0.800023990000809, 'Value2': 0.9923209959135689}
+{'Key': 'assay:API_20NE_URE', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20STR_ADH', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20STR_AMD', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20STR_ARA', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20STR_ESC', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20STR_GLYG', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20STR_HIP', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20STR_INU', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20STR_LAC', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20STR_LAP', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20STR_MAN', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20STR_PAL', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20STR_PYRA', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20STR_RAF', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20STR_RIB', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20STR_SOR', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20STR_TRE', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20STR_VP', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20STR_alpha GAL', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20STR_beta GAL', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20STR_beta GUR', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_20STR_beta HEM', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_50CHac_2KG', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_50CHac_5KG', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_50CHac_ADO', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_50CHac_AMD', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_50CHac_AMY', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_50CHac_ARB', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_50CHac_CEL', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_50CHac_DARA', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_50CHac_DARL', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_50CHac_DFUC', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_50CHac_DUL', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_50CHac_DXYL', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_50CHac_ERY', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_50CHac_ESC', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_50CHac_FRU', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_50CHac_GAL', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_50CHac_GEN', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_50CHac_GLU', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_50CHac_GLY', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_50CHac_GLYG', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_50CHac_GNT', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_50CHac_INO', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_50CHac_INU', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_50CHac_LAC', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_50CHac_LARA', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_50CHac_LARL', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_50CHac_LFUC', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_50CHac_LYX', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_50CHac_MAL', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_50CHac_MAN', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_50CHac_MDG', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_50CHac_MDM', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_50CHac_MDX', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_50CHac_MEL', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_50CHac_MLZ', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_50CHac_MNE', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_50CHac_NAG', 'Value1': 2.585443054726208, 'Value2': 2.5828528896893643}
+{'Key': 'assay:API_50CHac_RAF', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_50CHac_RHA', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_50CHac_RIB', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_50CHac_SAC', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_50CHac_SAL', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_50CHac_SBE', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_50CHac_SOR', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_50CHac_TAG', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_50CHac_TRE', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_50CHac_TUR', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_50CHac_XLT', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_50CHas_AMD', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_50CHas_ARB', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_50CHas_CEL', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_50CHas_DFUC', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_50CHas_FRU', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_50CHas_GLU', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_50CHas_LARA', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_50CHas_MEL', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_CAM_ACE', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_CAM_ArgA', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_CAM_AspA', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_CAM_CAT', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_CAM_CFZ', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_CAM_CIT', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_CAM_ERO', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_CAM_EST', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_CAM_GGT', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_CAM_GLU', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_CAM_H2S', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_CAM_HIP', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_CAM_MLT', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_CAM_NAL', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_CAM_NIT', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_CAM_PAL', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_CAM_PROP', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_CAM_PYRA', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_CAM_SUT', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_CAM_TTC', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_CAM_URE', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_ID32E_5KG', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_ID32E_ADH Arg', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_ID32E_ADO', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_ID32E_AspA', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_ID32E_CEL', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_ID32E_DARL', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_ID32E_GAT', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_ID32E_GLU', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_ID32E_IND', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_ID32E_INO', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_ID32E_LARA', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_ID32E_LARL', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_ID32E_LDC Lys', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_ID32E_LIP', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_ID32E_MAL', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_ID32E_MAN', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_ID32E_MNT', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_ID32E_ODC', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_ID32E_PLE', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_ID32E_RHA', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_ID32E_RP', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_ID32E_SAC', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_ID32E_SOR', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_ID32E_TRE', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_ID32E_URE', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_ID32E_alpha GAL', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_ID32E_alpha GLU', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_ID32E_alphaMAL', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_ID32E_beta GAL', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_ID32E_beta GLU', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_ID32E_beta GUR', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_ID32E_beta NAG', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_ID32STA_ADH Arg', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_ID32STA_ARA', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_ID32STA_ArgA', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_ID32STA_CEL', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_ID32STA_ESC', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_ID32STA_FRU', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_ID32STA_GLU', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_ID32STA_LAC', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_ID32STA_MAL', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_ID32STA_MAN', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_ID32STA_MNE', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_ID32STA_NAG', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_ID32STA_NIT', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_ID32STA_NOVO', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_ID32STA_ODC', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_ID32STA_PAL', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_ID32STA_PyrA', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_ID32STA_RAF', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_ID32STA_RIB', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_ID32STA_SAC', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_ID32STA_TRE', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_ID32STA_TUR', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_ID32STA_URE', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_ID32STA_VP', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_ID32STA_beta GAL', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_ID32STA_beta GUR', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_LIST_DARL', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_LIST_DIM', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_LIST_ESC', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_LIST_G1P', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_LIST_MDG', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_LIST_RHA', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_LIST_RIB', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_LIST_TAG', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_LIST_XYL', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_LIST_alpha MAN', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_LIST_beta HEM', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_NH_FRU', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_NH_GGT', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_NH_GLU', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_NH_IND', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_NH_LIP', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_NH_MAL', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_NH_ODC', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_NH_PAL', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_NH_PEN', 'Value1': 0.11911605308488286, 'Value2': 0.05612594214475631}
+{'Key': 'assay:API_NH_ProA', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_NH_SAC', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_NH_URE', 'Value1': 0.11126209474594238, 'Value2': 0.08557228823082441}
+{'Key': 'assay:API_NH_beta GAL', 'Value1': 0.08691699435453486, 'Value2': 0.10521626085825282}
+{'Key': 'assay:API_coryne_CAT', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_coryne_Control', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_coryne_ESC', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_coryne_GEL', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_coryne_GLU', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_coryne_GLYG', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_coryne_LAC', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_coryne_MAL', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_coryne_MAN', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_coryne_NIT', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_coryne_PAL', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_coryne_PYRA', 'Value1': 3.053478227537238, 'Value2': 2.8172177991875613}
+{'Key': 'assay:API_coryne_PYZ', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_coryne_RIB', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_coryne_SAC', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_coryne_URE', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_coryne_XYL', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_coryne_alpha GLU', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_coryne_beta GAL', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_coryne_beta GUR', 'Value1': 0.6045738185715236, 'Value2': 0.5233869990350491}
+{'Key': 'assay:API_coryne_beta NAG', 'Value1': 1.80018014961264, 'Value2': 1.5545475370035864}
+{'Key': 'assay:API_rID32A_ADH Arg', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_rID32A_AlaA', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_rID32A_ArgA', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_rID32A_GDC', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_rID32A_GGA', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_rID32A_GlyA', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_rID32A_HisA', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_rID32A_IND', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_rID32A_LGA', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_rID32A_LeuA', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_rID32A_MNE', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_rID32A_NIT', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_rID32A_PAL', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_rID32A_PheA', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_rID32A_ProA', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_rID32A_PyrA', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_rID32A_RAF', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_rID32A_SerA', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_rID32A_TyrA', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_rID32A_URE', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_rID32A_alpha ARA', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_rID32A_alpha FUC', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_rID32A_alpha GAL', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_rID32A_alpha GLU', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_rID32A_beta GAL', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_rID32A_beta GLU', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_rID32A_beta GP', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_rID32A_beta GUR', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_rID32A_beta NAG', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_rID32STR_ADH Arg', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_rID32STR_APPA', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_rID32STR_CDEX', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_rID32STR_DARL', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_rID32STR_GLYG', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_rID32STR_GTA', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_rID32STR_HIP', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_rID32STR_LAC', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_rID32STR_LARA', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_rID32STR_MAL', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_rID32STR_MAN', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_rID32STR_MEL', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_rID32STR_MLZ', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_rID32STR_Mbeta DG', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_rID32STR_PAL', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_rID32STR_PUL', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_rID32STR_PyrA', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_rID32STR_RAF', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_rID32STR_RIB', 'Value1': 0.44734621191449403, 'Value2': 0.39001290082617845}
+{'Key': 'assay:API_rID32STR_SAC', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_rID32STR_SOR', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_rID32STR_TAG', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_rID32STR_TRE', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_rID32STR_URE', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_rID32STR_VP', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_rID32STR_alpha GAL', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_rID32STR_beta GAL', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_rID32STR_beta GAR', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_rID32STR_beta GLU', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_rID32STR_beta GUR', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_rID32STR_beta MAN', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_rID32STR_beta NAG', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_zym_Acid phosphatase', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_zym_Alkaline phosphatase', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_zym_Control', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_zym_Cystine arylamidase', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_zym_Esterase', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_zym_Esterase Lipase', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_zym_Leucine arylamidase', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_zym_Lipase', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_zym_N-acetyl-beta- glucosaminidase', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_zym_Naphthol-AS-BI-phosphohydrolase', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_zym_Trypsin', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_zym_Valine arylamidase', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_zym_alpha- Chymotrypsin', 'Value1': 3.240650373733754, 'Value2': 3.230280103694267}
+{'Key': 'assay:API_zym_alpha- Fucosidase', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_zym_alpha- Galactosidase', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_zym_alpha- Glucosidase', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_zym_alpha- Mannosidase', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_zym_beta- Galactosidase', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_zym_beta- Glucosidase', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'assay:API_zym_beta- Glucuronidase', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'cell_length:high', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'cell_length:low', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'cell_length:mid', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'cell_length:very_low', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'cell_shape:bacillus', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'cell_shape:branced', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'cell_shape:coccobacillus', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'cell_shape:coccus', 'Value1': 3.015592204440684, 'Value2': 3.09027257013787}
+{'Key': 'cell_shape:curved', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'cell_shape:disc ', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'cell_shape:dumbbell', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'cell_shape:ellipsoidal', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'cell_shape:filament', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'cell_shape:fusiform', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'cell_shape:helical', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'cell_shape:irregular', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'cell_shape:oval', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'cell_shape:ovoid', 'Value1': 1.386902572915263, 'Value2': 1.3592296007761147}
+{'Key': 'cell_shape:pleomorphic', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'cell_shape:ring', 'Value1': 0.12679164106996435, 'Value2': 0.06957991799813745}
+{'Key': 'cell_shape:rod', 'Value1': 15.346874447986186, 'Value2': 15.207604207118028}
+{'Key': 'cell_shape:sphere', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'cell_shape:spiral', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'cell_shape:spore', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'cell_shape:square', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'cell_shape:star', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'cell_shape:star_dumbbell_pleomorphic', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'cell_shape:vibrio', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'cell_width:high', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'cell_width:low', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'cell_width:mid', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'cell_width:very_low', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'gc:high', 'Value1': 5.883007610043105, 'Value2': 5.8488671604023645}
+{'Key': 'gc:low', 'Value1': 4.589295808104839, 'Value2': 4.577159186561744}
+{'Key': 'gc:mid1', 'Value1': 7.0685335320997025, 'Value2': 7.242912254589564}
+{'Key': 'gc:mid2', 'Value1': 1.6343811691391632, 'Value2': 1.6701256680605223}
+{'Key': 'gram_stain:negative', 'Value1': 11.079479224148447, 'Value2': 10.39901927593729}
+{'Key': 'gram_stain:positive', 'Value1': 5.759518287687525, 'Value2': 5.881921021523774}
+{'Key': 'gram_stain:variable', 'Value1': 0.32401129368606174, 'Value2': 0.36667703942136426}
+{'Key': 'isolation_source:abdomen', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:abort', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:abscess', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:acidic', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:activated-sludge', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:agriculture', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:air', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:air-conditioner', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:airways', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:algae', 'Value1': 6.0625005948004675, 'Value2': 5.6742858843654}
+{'Key': 'isolation_source:alkaline', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:alpine', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:amniotic-fluid', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:amphibia', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:anaerobic-digestor', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:animal-feed', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:animal-habitation-nest,burrow', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:animal-produced-food-natural', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:ankle', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:annelida', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:anoxic-anaerobic', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:antibiotic-treatment', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:aquaculture', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:aquatic', 'Value1': 2.489813741538056, 'Value2': 2.507264080279156}
+{'Key': 'isolation_source:aquatic-mammal', 'Value1': 0.14097915426938726, 'Value2': 0.11792622338387712}
+{'Key': 'isolation_source:aquatic-plant', 'Value1': 4.150881286322293, 'Value2': 3.3184842466463755}
+{'Key': 'isolation_source:arid', 'Value1': 1.4200650083660924, 'Value2': 1.294784958784778}
+{'Key': 'isolation_source:arm', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:arthropoda', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:aspirate', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:bacteria', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:bark', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:beverage', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:biodegradation', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:biofilm', 'Value1': 3.410711071398775, 'Value2': 3.794160565776019}
+{'Key': 'isolation_source:biofilter', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:biopsy', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:bioreactor', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:bioremediation', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:birds', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:bladder', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:bladder-stone', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:blood', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:blood-culture', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:bone', 'Value1': 0.2920576930600442, 'Value2': 0.3110256602313742}
+{'Key': 'isolation_source:boreal', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:bottled,-canned,-packed-food', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:bovinae-cow,-cattle', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:brackish', 'Value1': 1.5689644302582437, 'Value2': 1.8741906259940633}
+{'Key': 'isolation_source:brain', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:bronchial-wash', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:brown-algae', 'Value1': 2.624066084677199, 'Value2': 1.5765450544905448}
+{'Key': 'isolation_source:built-environment', 'Value1': 2.204506726863216, 'Value2': 2.4299834499455604}
+{'Key': 'isolation_source:caecal-content', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:canidae-dog', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:caprinae-sheep/goat', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:catheter', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:cave-water', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:cerebrospinal-fluid', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:chicken', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:child', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:clean-room', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:clinic', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:cnidaria-corals', 'Value1': 9.94931826090303, 'Value2': 9.030093406603482}
+{'Key': 'isolation_source:co-culture', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:coalbed-water', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:coast', 'Value1': 15.823029278000257, 'Value2': 16.93419225865855}
+{'Key': 'isolation_source:cold', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:composting', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:container-reservoir', 'Value1': 0.13183623124886104, 'Value2': 0.10255004635449003}
+{'Key': 'isolation_source:contaminant', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:contamination', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:cooling-tower', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:coral-reef', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:core-sample', 'Value1': 1.1380129862449533, 'Value2': 1.1091720670575653}
+{'Key': 'isolation_source:cotton-other-fibres', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:crustacea', 'Value1': 6.019171341173455, 'Value2': 5.0108422834999375}
+{'Key': 'isolation_source:currency', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:cystic-fibrosis', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:dairy-product', 'Value1': 0.5879610531703549, 'Value2': 0.5998750786902981}
+{'Key': 'isolation_source:decomposing-algae', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:decomposing-animal', 'Value1': 0.40960740591926637, 'Value2': 0.5334539885642553}
+{'Key': 'isolation_source:decomposing-plant', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:defined-media', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:dental-plaque', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:desert', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:digestive-fluid', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:dinoflagellate', 'Value1': 1.3803749547162318, 'Value2': 1.5169903661172215}
+{'Key': 'isolation_source:disease', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:domestic-waste', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:dust', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:dust-ash', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:ear', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:echinodermata', 'Value1': 6.389917194917002, 'Value2': 6.303911610631734}
+{'Key': 'isolation_source:egg', 'Value1': 1.2553176884444246, 'Value2': 0.8048142532750715}
+{'Key': 'isolation_source:endosphere', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:endosymbiont', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:engineered', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:engineered-product', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:environmental', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:epibiont', 'Value1': 0.6407038729660097, 'Value2': 0.45955586633559464}
+{'Key': 'isolation_source:equidae-horse', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:estuary', 'Value1': 0.20059109914729795, 'Value2': 0.18427511461765894}
+{'Key': 'isolation_source:extracellular', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:eye', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:feces-stool', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:felidae-cat', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:female', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:fermented', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:field', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:fishes', 'Value1': 12.281178164984974, 'Value2': 11.243440876848474}
+{'Key': 'isolation_source:flower', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:fluids', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:foam', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:food', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:food-production', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:food_fermented', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:foot', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:forest', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:freshwater', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:fruit-seed', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:fungi', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:gall', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:garden', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:gastrointestinal-tract', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:geologic', 'Value1': 1.9636660675308757, 'Value2': 1.983824625103233}
+{'Key': 'isolation_source:gingiva', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:glacier', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:grassland', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:green-algae', 'Value1': 7.605934064964603, 'Value2': 5.4971941481211335}
+{'Key': 'isolation_source:greenhouse', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:groundwater', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:grove-orchard', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:hand', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:head', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:heart', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:heart-valve', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:heavy-metal', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:herbaceous-plants-grass,crops', 'Value1': 15.441158030231199, 'Value2': 15.62858288322422}
+{'Key': 'isolation_source:host', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:host-body-product', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:host-body-site', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:host_animal_ectotherm', 'Value1': 2.6139076425936323, 'Value2': 2.3680597819470575}
+{'Key': 'isolation_source:host_animal_endotherm', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:host_animal_endotherm_intratissue', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:host_animal_endotherm_rumen', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:hot', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:house', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:human', 'Value1': 15.233001581668491, 'Value2': 15.580436667995828}
+{'Key': 'isolation_source:humid', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:hydrothermal-vent', 'Value1': 0.8281209342249533, 'Value2': 0.8877991530763927}
+{'Key': 'isolation_source:ice', 'Value1': 0.9488315949994153, 'Value2': 1.0429125103533623}
+{'Key': 'isolation_source:immunocompromised', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:in-situ', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:indoor', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:indoor-air', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:industrial', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:industrial-production', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:industrial-waste', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:industrial-wastewater', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:infection', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:inflammation', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:insecta', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:invertebrates-other', 'Value1': 0.1576495435123906, 'Value2': 0.2642616189518703}
+{'Key': 'isolation_source:iron-mat', 'Value1': 0.03029750065288916, 'Value2': 0.01545942759413805}
+{'Key': 'isolation_source:joint', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:juice-natural', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:juvenile', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:kidney', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:lab-enrichment', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:laboratory', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:lake-large', 'Value1': 5.357491331195119, 'Value2': 4.749253765218564}
+{'Key': 'isolation_source:landfill', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:large-intestine', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:leaf-phyllosphere', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:leg', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:leporidae-rabbit/hare', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:lesion-incl.-necrosis', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:lichen', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:limb', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:liver', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:livestock-husbandry', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:lung', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:lymph-node', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:machines-and-devices', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:male', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:mammals', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:mammary-gland', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:mangrove', 'Value1': 13.874474014315883, 'Value2': 14.72744146307652}
+{'Key': 'isolation_source:marine', 'Value1': 213.49181837421963, 'Value2': 206.21864297836515}
+{'Key': 'isolation_source:meadow', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:meat', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:medical-device', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:medical-environment', 'Value1': 0.02757464214532142, 'Value2': 0.01715192500372864}
+{'Key': 'isolation_source:medical-practice', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:medical-product', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:meningitis', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:microbial', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:microbial-community', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:microbial-mat', 'Value1': 0.5265263558782277, 'Value2': 0.47679425076505116}
+{'Key': 'isolation_source:milk', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:mine', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:mollusca', 'Value1': 20.741263955015672, 'Value2': 24.443988049405423}
+{'Key': 'isolation_source:moss', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:mouth', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:mucus', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:mud-sludge', 'Value1': 1.7905832201952012, 'Value2': 2.094319775839034}
+{'Key': 'isolation_source:muridae-mouse/rat', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:mushroom', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:mycorrhiza', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:mycosis', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:nectar', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:nematoda', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:nephridium', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:non-marine-saline-and-alkaline', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:nose', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:oil-food', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:oil-fuel', 'Value1': 1.346170279681539, 'Value2': 1.3435857621006642}
+{'Key': 'isolation_source:oil-reservoir', 'Value1': 0.22487188900874505, 'Value2': 0.24120868839937862}
+{'Key': 'isolation_source:oral-cavity-and-airways', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:organ', 'Value1': 0.673551590029209, 'Value2': 0.5133595263179389}
+{'Key': 'isolation_source:other', 'Value1': 0.38453189944695515, 'Value2': 0.5121709217290492}
+{'Key': 'isolation_source:outdoor-air', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:ovary', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:paddy-ricefield', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:painting', 'Value1': 2.6334826802525577, 'Value2': 2.853170966259821}
+{'Key': 'isolation_source:patient', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:peat-moss', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:periodontal-pocket', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:permafrost', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:pesticide', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:phlegm', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:phylloplane', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:plant', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:plant-exudate-resin', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:plant-factory', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:plant-infections', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:plant-litter-forest', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:plant-sap-flux', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:plantation', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:plants', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:plaque', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:pleural-fluid', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:polar', 'Value1': 1.0056597566761285, 'Value2': 0.6237134070079808}
+{'Key': 'isolation_source:pond-small', 'Value1': 0.5476225090615628, 'Value2': 0.5547141145427427}
+{'Key': 'isolation_source:porifera-sponges', 'Value1': 4.074555950259279, 'Value2': 4.710726751377668}
+{'Key': 'isolation_source:preserved', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:primates', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:protist', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:protozoa', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:psychrophilic-<10°c', 'Value1': 0.571357404612583, 'Value2': 0.49877575533311563}
+{'Key': 'isolation_source:rectum', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:red-algae', 'Value1': 1.319991075259082, 'Value2': 0.9698603855698991}
+{'Key': 'isolation_source:reptilia', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:rhizoplane', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:rhizosphere', 'Value1': 4.06294141274498, 'Value2': 4.0360258969989795}
+{'Key': 'isolation_source:river-creek', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:rodentia-other', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:root-nodule', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:root-rhizome', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:root-tooth', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:rot-root,stem', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:rumen', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:rumen-fluid', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:saline', 'Value1': 77.4047472877639, 'Value2': 80.56144005893866}
+{'Key': 'isolation_source:saliva', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:salmonidae', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:salt-marsh', 'Value1': 0.02588182133272699, 'Value2': 0.036165341181752735}
+{'Key': 'isolation_source:sandy', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:seafood', 'Value1': 6.602311161855787, 'Value2': 7.25364093203901}
+{'Key': 'isolation_source:sediment', 'Value1': 44.34165111158909, 'Value2': 42.75026802461631}
+{'Key': 'isolation_source:semen', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:semiarid', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:sewage-sludge', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:shrub-scrub', 'Value1': 1.7166059835849654, 'Value2': 1.8787839234663282}
+{'Key': 'isolation_source:simulated-communities', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:skin,-nail,-hair', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:small-intestine', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:soil', 'Value1': 74.23637872116653, 'Value2': 74.5812496705856}
+{'Key': 'isolation_source:solid-animal-waste', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:solid-plant-waste', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:solid-waste', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:specimen', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:spinal-cord', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:spleen', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:spoiled', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:spot-leaf,stem', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:spring', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:sputum', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:starter-culture', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:stem-branch', 'Value1': 1.770130001803658, 'Value2': 2.078934146212757}
+{'Key': 'isolation_source:sterilized-desinfected', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:sterilized-plant-part', 'Value1': 1.0269156022976655, 'Value2': 1.0888877981901672}
+{'Key': 'isolation_source:stomach', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:straw', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:subarctic', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:subgingival-plaque', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:subtropical', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:sugary-food', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:suidae-pig,swine', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:sulfuric', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:surface-swab', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:surface-water', 'Value1': 5.606741114870804, 'Value2': 4.866365130047248}
+{'Key': 'isolation_source:swab', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:synovial-fluid', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:temperate', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:terrestrial', 'Value1': 0.884131561967754, 'Value2': 1.0149477871215258}
+{'Key': 'isolation_source:thermal-spring', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:thermophilic->45°c', 'Value1': 2.1859163498483523, 'Value2': 2.302380490377247}
+{'Key': 'isolation_source:thoracic-segment', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:throat', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:tick', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:tidal-flat', 'Value1': 23.207473154216366, 'Value2': 20.57071096365522}
+{'Key': 'isolation_source:timber', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:tooth', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:torso', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:trachea', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:transportation-ways-roads', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:treatment', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:tree', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:tropical', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:tuberculosis', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:tundra', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:tunicata', 'Value1': 6.028662151628197, 'Value2': 5.900550760264874}
+{'Key': 'isolation_source:urethra', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:urine', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:urogenital-tract', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:vagina', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:vaginal-secretion', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:vascular-system', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:vegetable-incl.-grains', 'Value1': 0.4895729133221096, 'Value2': 0.40885048971573407}
+{'Key': 'isolation_source:vineyard', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:viriome', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:volcanic', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:vomit', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:waste', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:waste-gas', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:wastewater', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:water-reservoir-aquarium/pool', 'Value1': 0.7147384764947847, 'Value2': 0.6728671751082317}
+{'Key': 'isolation_source:water-treatment-plant', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:wetland-swamp', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:wilt', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:wound', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:wound-fluid', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:xerophilic', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:xerophytic', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:yeast', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:zebrafish', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'isolation_source:zooplankton', 'Value1': 0.18623015592669487, 'Value2': 0.09353497182569713}
+{'Key': 'motility:motile', 'Value1': 13.02045996483082, 'Value2': 12.671599455300758}
+{'Key': 'motility:non_motile', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'oxygen:aerobe', 'Value1': 17.11406078686691, 'Value2': 17.737558251426076}
+{'Key': 'oxygen:aerotolerant', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'oxygen:anaerobe', 'Value1': 251.88537240413982, 'Value2': 260.98814662882336}
+{'Key': 'oxygen:facultative_aerobe', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'oxygen:facultative_anaerobe', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'oxygen:microaerophile', 'Value1': 30.845866997148757, 'Value2': 31.77060018165459}
+{'Key': 'oxygen:microaerotolerant', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'oxygen:obligate_aerobe', 'Value1': 5.54986852340209, 'Value2': 5.631161574908221}
+{'Key': 'oxygen:obligate_anaerobe', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pH_delta:high', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pH_delta:low', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pH_delta:mid1', 'Value1': 0.5076184267466959, 'Value2': 0.4907803747090327}
+{'Key': 'pH_delta:mid2', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pH_delta:mid3', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pH_delta:very_low', 'Value1': 0.854053195251349, 'Value2': 0.8151742235028149}
+{'Key': 'pH_opt:high', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pH_opt:low', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pH_opt:mid1', 'Value1': 3.4661280075633494, 'Value2': 3.209517134030769}
+{'Key': 'pH_opt:mid2', 'Value1': 8.182198960304113, 'Value2': 7.590453989108093}
+{'Key': 'pH_range:low', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pH_range:mid1', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pH_range:mid2', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pH_range:mid3', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pH_range:mid4', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathogen:animal', 'Value1': 2.554728781264067, 'Value2': 2.445142957546336}
+{'Key': 'pathogen:human', 'Value1': 12.310789297569086, 'Value2': 12.688534481068086}
+{'Key': 'pathogen:plant', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:acetogenesis', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:aerobic_anoxygenic_phototrophy', 'Value1': 0.4934401750498118, 'Value2': 0.48394937938877014}
+{'Key': 'pathways:aerobic_chemo_heterotrophy', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:aerobic_heterotrophy', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:aliphatic_non_methane_hydrocarbon_degradation', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:aminoacid_degradation', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:anoxygenic_photoautotrophy', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:anoxygenic_photoautotrophy_hydrogen_oxidation', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:anoxygenic_photoautotrophy_iron_oxidation', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:anoxygenic_photoautotrophy_sulfur_oxidation', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:antibiotic_resistance', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:aromatic_compound_degradation', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:aromatic_hydrocarbon_degradation', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:arsenate_reduction', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:arsenite_oxidation', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:autotrophy', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:carbon_monoxide_oxidation', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:carbonmonoxide_oxidation', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:carbonmonoxide_reduction', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:cellobiose_degradation', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:cellulose_degradation', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:chalcopyrite_oxidation', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:chitin_degradation', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:chlorate_reduction', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:denitrification', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:fermentation', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:fumarate_reduction', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:galena_oxidation', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:heterotrophic', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:hydrocarbon_degradation', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:hydrogen_oxidation', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:hydrogen_oxidation_dark', 'Value1': 0.062140292802078924, 'Value2': 0.1352491999914862}
+{'Key': 'pathways:iron_oxidation', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:iron_oxidation_dark', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:iron_reduction', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:ligninolysis', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:manganese_oxidation', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:manganese_reduction', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:methane_oxidation', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:methanogenesis', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:methanogenesis_acetoclastic', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:methanogenesis_h2co2', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:methanol_oxidation', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:methylotrophy', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:nitrate_reduction', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:nitrate_reduction_to_ammonia', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:nitric_oxide_reduction', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:nitrification', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:nitrite_reduction', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:nitrite_reduction_to_ammonia', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:nitrogen_fixation', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:nitrous_oxide_reduction', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:pah_degradation', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:photoheterotrophy', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:plastic_degradation', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:pyrite_oxidation', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:selenate_reduction', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:sulfate_reduction', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:sulfide_oxidation', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:sulfide_oxidation_dark', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:sulfite_oxidation_dark', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:sulfite_reduction', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:sulfur_compound_oxidation_dark', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:sulfur_oxidation', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:sulfur_oxidation_dark', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:sulfur_reduction', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:tetrathionate_oxidation', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:thiosulfate_disproportionation', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:thiosulfate_oxidation', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:thiosulfate_oxidation_dark', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:thiosulfate_reduction', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:uraninite_oxidation', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:uranyl_reduction', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pathways:urea_degradation', 'Value1': 0.4960023812201674, 'Value2': 0.6170812342961902}
+{'Key': 'pathways:xylan_degradation', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pigment:black', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pigment:brown', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pigment:carotenoid', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pigment:cream', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pigment:green', 'Value1': 0.022276188060100125, 'Value2': 0.011680223061835072}
+{'Key': 'pigment:orange', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pigment:pink', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pigment:red', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pigment:white', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'pigment:yellow', 'Value1': 0.11801158645840026, 'Value2': 0.09525137184617977}
+{'Key': 'production:alcohol', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'production:amino_acid', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'production:antibiotic_compound', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'production:lactate', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'production:methane', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'production:pigmented', 'Value1': 0.12600249884270967, 'Value2': 0.11302905763798222}
+{'Key': 'production:polysaccharide', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'production:toxin', 'Value1': 0.20492011253798195, 'Value2': 0.23393065273831065}
+{'Key': 'salinity:extremely_halophilic', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'salinity:halophilic', 'Value1': 0.14222593987427332, 'Value2': 0.13108205452356894}
+{'Key': 'salinity:halotolerant', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'salinity:moderately_halophilic', 'Value1': 1.816931060419377, 'Value2': 1.7527582640696722}
+{'Key': 'salinity:non_halophilic', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'salinity:slightly_halophilic', 'Value1': 0.15296334114518234, 'Value2': 0.13877388701581927}
+{'Key': 'sporulation:non_spore_forming', 'Value1': 2.1188590098338014, 'Value2': 2.0664042926080164}
+{'Key': 'sporulation:spore_forming', 'Value1': 1.4214600014125112, 'Value2': 1.3855826586245128}
+{'Key': 'temp_delta:high', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'temp_delta:low', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'temp_delta:mid1', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'temp_delta:mid2', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'temp_delta:mid3', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'temp_opt:high', 'Value1': 0.6739259613893527, 'Value2': 0.6418065137014347}
+{'Key': 'temp_opt:low', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'temp_opt:mid1', 'Value1': 2.2816319939136607, 'Value2': 2.3857053377052626}
+{'Key': 'temp_opt:mid2', 'Value1': 5.66811492683403, 'Value2': 5.386318767634777}
+{'Key': 'temp_opt:mid3', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'temp_opt:mid4', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'temp_opt:very_low', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'temp_range:high', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'temp_range:low', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'temp_range:mid1', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'temp_range:mid2', 'Value1': 10.092583213285037, 'Value2': 9.620611684930125}
+{'Key': 'temp_range:mid3', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'temp_range:mid4', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'temp_range:very_low', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'temperature:hyperthermophilic', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'temperature:mesophilic', 'Value1': 58.3243568519648, 'Value2': 58.93325338130234}
+{'Key': 'temperature:psychrophilic', 'Value1': 44.73197878191224, 'Value2': 44.09270639171563}
+{'Key': 'temperature:thermophilic', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'trophic_type:autotrophy', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'trophic_type:chemoautolithotrophy', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'trophic_type:chemoautotrophy', 'Value1': 0.01364697558577344, 'Value2': 0.007226564956495282}
+{'Key': 'trophic_type:chemoheterotrophy', 'Value1': 0.7259485419790144, 'Value2': 0.5179254434386487}
+{'Key': 'trophic_type:chemolithoautotrophy', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'trophic_type:chemolithoheterotrophy', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'trophic_type:chemolithotrophy', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'trophic_type:chemoorganoheterotrophy', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'trophic_type:chemoorganotrophy', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'trophic_type:chemotrophy', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'trophic_type:copiotroph_diazotrophy', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'trophic_type:heterotrophy', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'trophic_type:lithoautotrophy', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'trophic_type:lithoheterotrophy', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'trophic_type:lithotrophy', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'trophic_type:methylotrophy', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'trophic_type:mixotrophy', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'trophic_type:organoheterotrophy', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'trophic_type:organotrophy', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'trophic_type:photoheterotrophy', 'Value1': 0.0, 'Value2': 0.0}
+{'Key': 'trophic_type:phototrophy', 'Value1': 0.0, 'Value2': 0.0}
+TOP 25+25 FEATURES ACCORDING TO SHAP
+                                                 Key      Value1      Value2
+1611                                 oxygen:anaerobe  251.885372  260.988147
+1447                         isolation_source:marine  213.491818  206.218643
+747                                       EC:1.9.3.1  103.624604  104.050491
+1522                         isolation_source:saline   77.404747   80.561440
+1536                           isolation_source:soil   74.236379   74.581250
+1757                          temperature:mesophilic   58.324357   58.933253
+1758                       temperature:psychrophilic   44.731979   44.092706
+1528                       isolation_source:sediment   44.341651   42.750268
+1614                           oxygen:microaerophile   30.845867   31.770600
+753                                       EC:3.1.3.2   25.221343   24.015997
+1570                     isolation_source:tidal-flat   23.207473   20.570711
+787                                       EC:3.5.1.5   23.146820   23.010251
+1460                       isolation_source:mollusca   20.741264   24.443988
+776                                      EC:3.4.11.1   20.391237   19.382428
+853                                   NaCl_range:mid   20.230418   19.468819
+182                                      CHEBI:17306   19.589868   18.970529
+851                                  NaCl_range:high   18.037231   17.488708
+759                                      EC:3.2.1.20   17.856255   17.173770
+378                                      CHEBI:29016   17.645247   17.219359
+1609                                   oxygen:aerobe   17.114061   17.737558
+818                                    ENVO:00002149   17.019456   16.508601
+200                                      CHEBI:17634   16.956881   16.843454
+1324                          isolation_source:coast   15.823029   16.934192
+1396  isolation_source:herbaceous-plants-grass,crops   15.441158   15.628583
+1239                                  cell_shape:rod   15.346874   15.207604
+1406                          isolation_source:human   15.233002   15.580437
+760                                      EC:3.2.1.21   14.046428   13.998002
+1446                       isolation_source:mangrove   13.874474   14.727441
+539                                       CHEBI:4853   13.788216   13.269873
+934                              assay:API_20NE_PNPG   13.610283   12.983611
+1607                                 motility:motile   13.020460   12.671599
+1634                                  pathogen:human   12.310789   12.688534
+1368                         isolation_source:fishes   12.281178   11.243441
+848                                     NaCl_opt:low   12.221883   11.390254
+932                                assay:API_20NE_OX   11.371442   11.109632
+1255                             gram_stain:negative   11.079479   10.399019
+743                                      EC:1.11.1.6   10.823189   10.791428
+752                                       EC:3.1.3.1   10.291720    9.907621
+1752                                 temp_range:mid2   10.092583    9.620612
+1321                isolation_source:cnidaria-corals    9.949318    9.030093
+416                                      CHEBI:30849    9.411162    9.222908
+174                                      CHEBI:17234    9.072975    8.905283
+790                                       EC:3.5.3.6    8.785856    8.416438
+295                                      CHEBI:25115    8.627036    8.342873
+575                                      CHEBI:53423    8.563277    8.380389
+208                                      CHEBI:17754    8.535122    8.401482
+567                                       CHEBI:5291    8.288445    8.244411
+1627                                     pH_opt:mid2    8.182199    7.590454
+1387                    isolation_source:green-algae    7.605934    5.497194
+1253                                         gc:mid1    7.068534    7.242912
+...
+                           Key  Value1  Value2
+652                CHEBI:73706     0.0     0.0
+614                CHEBI:63153     0.0     0.0
+624                CHEBI:64103     0.0     0.0
+623                CHEBI:63675     0.0     0.0
+622                 CHEBI:6364     0.0     0.0
+621                CHEBI:63611     0.0     0.0
+620                CHEBI:63607     0.0     0.0
+619                CHEBI:63598     0.0     0.0
+618                 CHEBI:6359     0.0     0.0
+617                CHEBI:63528     0.0     0.0
+616                CHEBI:63486     0.0     0.0
+615                CHEBI:63154     0.0     0.0
+613                CHEBI:63150     0.0     0.0
+651                CHEBI:73167     0.0     0.0
+612                CHEBI:63051     0.0     0.0
+611                CHEBI:63043     0.0     0.0
+610                CHEBI:63038     0.0     0.0
+609                CHEBI:63005     0.0     0.0
+608                CHEBI:62983     0.0     0.0
+607                CHEBI:62969     0.0     0.0
+605                CHEBI:62965     0.0     0.0
+604                CHEBI:62946     0.0     0.0
+603                CHEBI:62517     0.0     0.0
+602                CHEBI:62501     0.0     0.0
+625                CHEBI:64243     0.0     0.0
+626                 CHEBI:6426     0.0     0.0
+627                 CHEBI:6452     0.0     0.0
+628                CHEBI:64552     0.0     0.0
+650                CHEBI:72813     0.0     0.0
+649                CHEBI:72346     0.0     0.0
+648                CHEBI:71987     0.0     0.0
+647                CHEBI:71422     0.0     0.0
+646                CHEBI:71415     0.0     0.0
+645                CHEBI:71321     0.0     0.0
+644                CHEBI:70744     0.0     0.0
+643                CHEBI:69414     0.0     0.0
+642                 CHEBI:6919     0.0     0.0
+641                 CHEBI:6909     0.0     0.0
+640                CHEBI:68837     0.0     0.0
+639                 CHEBI:6872     0.0     0.0
+638                CHEBI:68590     0.0     0.0
+636                 CHEBI:6827     0.0     0.0
+635                 CHEBI:6731     0.0     0.0
+634                CHEBI:67135     0.0     0.0
+633                CHEBI:66279     0.0     0.0
+632                CHEBI:65328     0.0     0.0
+631                CHEBI:65327     0.0     0.0
+630                 CHEBI:6472     0.0     0.0
+629                 CHEBI:6457     0.0     0.0
+1780  trophic_type:phototrophy     0.0     0.0
+ 239 values >0
+Correlation between SHAP values for TRAIN and TEST is 0.9993631557325742, p-value is 0.0
