@@ -88,10 +88,13 @@ clause of justification for each.
   - **Mixed**: more than one of the above contributes materially.
 - *Rule-set shape* — **convergent** (rules share an anchor and differ only in a
   qualifier) or **branching** (independent routes to the same conclusion).
-- *Confidence standing* — relate the model probability to the decision
-  threshold, and to the support and confidence of the rules. State whether the
-  prediction was correct if the outcome is given, and whether the rules explain
-  the outcome or merely accompany it.
+- *Confidence standing* — **only if the optional model block in F is present.**
+  Relate the model probability to the decision threshold, and to the support and
+  confidence of the rules; state whether the prediction was correct, and whether
+  the rules explain the outcome or merely accompany it. **If that block is
+  absent, write "not assessable — no model output supplied" and do not
+  substitute a guess.** The first two axes do not need it and are always
+  assessable from the rules alone.
 
 **B5. Critique** — two sentences. What would make this interpretation wrong, and
 what is the weakest link in it?
@@ -149,16 +152,25 @@ the features this group is connected to and the relationship type. In
 
 ## F. Data
 
-Fill in everything below. Delete any heading you have no data for.
+Fill in what you have. **Delete any block you cannot fill — never leave a
+`<...>` placeholder in place**, because the model will fill it in for you.
+
+The medium recipes are already in the four per-medium prompts in this folder;
+copy the ingredient table from the one for your medium.
 
 ```
 Organism: <name> (<NCBITaxon:...>)
 Predicted medium: <name> (DSMZ <id>)
+
+--- OPTIONAL: model outputs. Delete these two lines if you do not have them.
+--- They come from the prediction side, not from the rule mining. Without them
+--- the confidence axis in B4 is reported as not assessable, which is correct.
 Model probability: <...>          Decision threshold: <...>
 Observed growth: <...>            Outcome vs ground truth: <TP | FN | FP | TN>
+--- END OPTIONAL
 
 Medium ingredients (compound, amount, unit, g/L, mM):
-<paste the recipe table>
+<paste the recipe table from the per-medium prompt in this folder>
 
 FULL RULE SET — <N> rules fire for this link. Interpret the aggregate.
 <paste the rules, with IDs, support, confidence, lift>
