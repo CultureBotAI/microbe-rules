@@ -1,7 +1,9 @@
 # Rule-interpretation prompt (canonical)
 
 Use this for interpreting mined association rules for a predicted taxon→medium
-link. It replaces the four per-medium files in this folder
+**combination** — one organism paired with one medium, which is the unit the
+rule mining produces (seven of them in the current set). It replaces the four
+per-medium files in this folder
 (`LLM_514_Table_8`, `LLM_514_Table_11`, `LLM_65_Table_7`, `LLM_65_Table_10`),
 which are kept for reference because the published tables were produced with
 them.
@@ -20,9 +22,10 @@ to label a medium-65 result as DSMZ 514.
 1. Fill in every `<...>` placeholder in **F. Data**. Leave a heading out
    entirely if you have nothing for it; do not leave a placeholder in place.
 2. Paste the whole file, F included, as a single message.
-3. Do this once per taxon→medium link. Do not batch several links into one
-   request: the aggregation in B1 is over the rule set of **one** link, and
-   mixing links silently averages them.
+3. Run it **once per combination** — one organism with one medium. Do not put
+   two combinations in the same request: the aggregation in B1 is over the rule
+   set of a single combination, and combining them silently averages two
+   different organisms into one answer.
 4. Keep the model's reply as-is. The rule statistics in it are yours to check;
    the biology is for the CultureBot side to check.
 
@@ -36,7 +39,8 @@ that and stays comparable. A 13b local model will not do this job well.
 ## A. Context
 
 You are given the **complete set** of mined association rules that fire for one
-predicted link between a microbial taxon and a growth medium. Each rule has the
+predicted **combination** of one microbial taxon with one growth medium (the
+unit the rule mining produces). Each rule has the
 form `Condition1 & Condition2 ⇒ grows on <medium>`, with support, confidence and
 lift. Features are statements about the organism drawn from a knowledge graph:
 chemical substrates (`CHEBI:`), enzyme activities (`EC:`), isolation source and
@@ -75,7 +79,7 @@ lacked. Surface connections, not a list:
   branch into independent routes? Say which, and name the anchor if there is one.
 If a relationship type is absent, say so explicitly rather than omitting it.
 
-**B4. Case categorisation** — classify this link on three axes, and give one
+**B4. Case categorisation** — classify this combination on three axes, and give one
 clause of justification for each.
 
 - *Evidential basis* — choose one:
@@ -97,7 +101,7 @@ clause of justification for each.
   assessable from the rules alone.
 
 **B5. Critique** — two sentences. What would make this interpretation wrong, and
-what is the weakest link in it?
+what is the weakest step in the argument?
 
 ## C. Referencing
 
@@ -172,7 +176,7 @@ Observed growth: <...>            Outcome vs ground truth: <TP | FN | FP | TN>
 Medium ingredients (compound, amount, unit, g/L, mM):
 <paste the recipe table from the per-medium prompt in this folder>
 
-FULL RULE SET — <N> rules fire for this link. Interpret the aggregate.
+FULL RULE SET — <N> rules fire for this combination. Interpret the aggregate.
 <paste the rules, with IDs, support, confidence, lift>
 
 Feature frequency across the full rule set
