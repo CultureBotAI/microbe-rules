@@ -7,7 +7,7 @@ Feature group-based critique (one sentence)
 C. Referencing
 Refer to feature groups by their shared properties or specific identifiers. Use feature names exactly as stated (e.g., “ENVO:sea water,” “isolation source:marine,” etc.). Mention specific ingredients and their categories (e.g., NaCl, MgCl₂, Bacto peptone) when relevant.
 D. Output Format
-Medium: <DSMZ ??? label>
+Medium: <DSMZ 514 label>
 Feature group-based explanation: <your single sentence>
 Feature group-based critique: <your single sentence>
 E. Summary Table

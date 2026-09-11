@@ -11,7 +11,7 @@ C. Referencing
 2. Refer to features exactly as stated (e.g., “ENVO:sea water,” “isolation source:marine,” etc.).
 3. Mention specific ingredients and their categories (e.g., NaCl, MgCl2, Bacto peptone) when relevant.
 D. Output Format
-Medium: <DSMZ 514 label>
+Medium: <DSMZ 65 label>
 Rules and rule-set-based explanation: <your single sentence>
 Rules and rule-set-based critique: <your single sentence>
 Feature-set-based explanation: <your single sentence>
